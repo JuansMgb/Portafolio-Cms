@@ -54,7 +54,8 @@ const Index = ({ data, location }) => {
       <main className="main">
         <section className="about">
         <h2 className="title">Sobre Mi</h2>
-        <p className="sub--texts">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus delectus, harum maxime aliquid adipisci modi, voluptates, quidem quae labore nam officia! Et nemo sed dolor magni doloremque repellat, recusandae possimus?</p>
+        <p className="sub--texts">Me caracterizo por ser una persona emprendedora; cuento con un gran sentido de responsabilidad y creatividad, abierto adquirir nuevos conocimientos, comprometido con mis
+obligaciones laborales</p>
   
         </section>
       
@@ -80,6 +81,7 @@ const Index = ({ data, location }) => {
 
       </main>
       
+
       
     </Layout>
   )
