@@ -1,0 +1,122 @@
+
+
+.hero{
+
+    text-align: center;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: linear-gradient(to top, #1e4564,  #1d66a1, #42a4f4);
+}
+
+.hero--content{
+    padding-bottom: 10px;
+}
+
+.img--about{
+    width: 180px;
+    height: 180px;
+    padding: 8px;
+    align-items: center;
+    border: 3.6px solid #42a4f4;
+    border-radius: 50%;
+}
+
+.about--title{
+    margin: 0;
+    font-size: 1.6rem;
+    line-height: 1.4;
+    
+}
+
+
+.about--subtitle{
+    margin: 0;
+    margin-bottom: 14px;
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: #b8c0c7;
+    
+}
+
+
+
+.icons-content{
+    display:  flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 1.2rem;
+    margin-bottom: 28px;
+}
+
+.icon{
+    color: #b8c0c7;
+    cursor: pointer;
+}
+
+.nav--hero{
+    display: flex;
+    gap: 20px;
+    font-size: 1.2rem;
+    justify-content: center;
+}
+
+.nav--hero a {
+    text-decoration: none;
+    color: #b8c0c7;
+}
+
+
+.wave{
+    position: relative;
+    display: block;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+/*  main  */
+
+.main{
+    width: 100%;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.about{
+    min-width: 300px;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+
+.title{
+    margin: 0;
+    font-size: 2rem;
+    line-height: 1.4;
+    color: #42a4f4;
+
+}
+
+.sub--texts{
+    width: 90%;
+    font-size: 1rem;
+    margin: 0 auto;
+    padding-bottom: 66px;
+    color: #b8c0c7;
+}
+
+.technologies{
+    background: linear-gradient(to top, #1e4564,  #1d66a1, #42a4f4);
+}
+
+.tecno--content{
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.title--techno{
+    color: #b8c0c7;
+    margin-top: 15px;
+    margin-bottom: 38px;
+}

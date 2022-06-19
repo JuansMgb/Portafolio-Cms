@@ -1,0 +1,18 @@
+
+.nav--content{
+    padding-top: 36px;
+    background: linear-gradient(to top, #1e4564,  #1d66a1, #42a4f4);
+}
+
+.nav{
+    display: flex;
+    gap: 20px;
+    font-size: 1.2rem;
+    justify-content: center;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #b8c0c7;
+}
+

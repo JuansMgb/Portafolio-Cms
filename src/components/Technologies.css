@@ -1,0 +1,34 @@
+
+
+.tecno{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 29px;
+    row-gap: 34px;
+    color: #b8c0c7;
+    margin-bottom: 26px;
+}
+
+
+
+
+
+.icon--tecno{
+    font-size: 4.2rem;
+}
+
+.tecno--subtitle{
+    margin: 0;
+    margin-top: 10px;
+    line-height: 2;
+    font-size: 1.2rem;
+}
+
+.wave--top{
+    margin-bottom: 26px;
+}
+
+.wave--botton{
+    position: relative;
+    top: 4px;
+}
