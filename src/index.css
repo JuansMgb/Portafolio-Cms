@@ -98,13 +98,22 @@
 
 }
 
+
+
 .sub--texts{
     width: 90%;
     font-size: 1rem;
     margin: 0 auto;
-    padding-bottom: 66px;
     color: #b8c0c7;
 }
+
+.section--content{
+    padding-top: 100px;
+    min-width: 300px;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
 
 .technologies{
     background: linear-gradient(to top, #1e4564,  #1d66a1, #42a4f4);

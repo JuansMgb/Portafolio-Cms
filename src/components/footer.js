@@ -22,7 +22,7 @@ const Footer = () => {
           <Link href="https://twitter.com/JuansMgb"><FontAwesomeIcon className="icon" icon={faTwitter}/></Link>
         </div>
          <div className="footer--texts">
-         © {new Date().getFullYear()}, Echo Por El Conchi :y
+         © {new Date().getFullYear()}, Echo Por JuanSebastian.
          </div>
    
      

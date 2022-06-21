@@ -11,6 +11,9 @@ import { faArtstation } from "@fortawesome/free-brands-svg-icons"
 
 
 import project1 from "../images/project1.jpg"
+import project2 from "../images/project2.jpg"
+import project3 from "../images/project3.jpg"
+import project4 from "../images/project4.jpg"
 import { Link } from "gatsby"
 
 
@@ -41,7 +44,7 @@ const Project = () => {
 
         <div className="projects--content">
             <article className="projects--card">
-               <img  alt="" src={project1} className="img--project" />
+               <img  alt="" src={project2} className="img--project" />
                 <div className="projects--modal">
                     <div>
                      <span className="projects--subtitle">Web</span>
@@ -54,7 +57,7 @@ const Project = () => {
 
         <div className="projects--content">
             <article className="projects--card">
-               <img  alt="" src={project1} className="img--project" />
+               <img  alt="" src={project3} className="img--project" />
                 <div className="projects--modal">
                     <div>
                      <span className="projects--subtitle">Web</span>
@@ -67,7 +70,7 @@ const Project = () => {
 
         <div className="projects--content">
             <article className="projects--card">
-               <img  alt="" src={project1} className="img--project" />
+               <img  alt="" src={project4} className="img--project" />
                 <div className="projects--modal">
                     <div>
                      <span className="projects--subtitle">Animation</span>

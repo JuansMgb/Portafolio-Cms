@@ -1,6 +1,6 @@
 import * as React from "react"
 import { graphql, Link } from "gatsby"
-import "../components/index.css"
+import "../index.css"
 
 
  import foto from "../images/photo_2022-05-07_20-59-57.jpg"
@@ -53,10 +53,11 @@ const Index = ({ data, location }) => {
 
       <main className="main">
         <section className="about">
-        <h2 className="title">Sobre Mi</h2>
-        <p className="sub--texts">Me caracterizo por ser una persona emprendedora; cuento con un gran sentido de responsabilidad y creatividad, abierto adquirir nuevos conocimientos, comprometido con mis
-obligaciones laborales</p>
-  
+          <h2 className="title">Sobre Mi</h2>
+          <p className="sub--texts">Me caracterizo por ser una persona emprendedora; 
+            cuento con un gran sentido de responsabilidad y creatividad, abierto adquirir nuevos conocimientos, 
+            comprometido con mis responsabilidades.
+          </p>
         </section>
       
         <section className="section--content">
@@ -70,9 +71,9 @@ obligaciones laborales</p>
         </svg>
         <h2 className="title--techno">Tecnologias</h2>
 
-        <div className="tecno--content">
+        <section className="tecno--content">
         <Technologies />
-        </div>
+        </section>
 
         <svg className="wave--botton" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
           <path fill="#0c151d" fill-opacity="1" d="M0,96L120,133.3C240,171,480,245,720,250.7C960,256,1200,192,1320,160L1440,128L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"></path>
