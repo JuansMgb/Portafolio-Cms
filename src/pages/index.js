@@ -3,7 +3,7 @@ import { graphql, Link } from "gatsby"
 import "../index.css"
 
 
- import foto from "../images/photo_2022-05-07_20-59-57.jpg"
+ import foto from "../images/photo_2022-05-07_20-59-57-min.jpg"
 
 import Technologies from "../components/technologies"
 import Project from "../components/project"

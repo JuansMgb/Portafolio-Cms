@@ -10,10 +10,10 @@ import { faArtstation } from "@fortawesome/free-brands-svg-icons"
 
 
 
-import project1 from "../images/project1.jpg"
-import project2 from "../images/project2.jpg"
-import project3 from "../images/project3.jpg"
-import project4 from "../images/project4.jpg"
+import project1 from "../images/project1-min.jpg"
+import project2 from "../images/project2-min.jpg"
+import project3 from "../images/project3-min.jpg"
+import project4 from "../images/project4-min.jpg"
 import { Link } from "gatsby"
 
 
