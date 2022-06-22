@@ -41,14 +41,14 @@
   "devDependencies": {
     "prettier": "^2.6.2"
   },
-  "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
+  "homepage": "https://github.com/JuansMgb/Portafolio-Cms.git",
   "keywords": [
     "gatsby"
   ],
   "license": "0BSD",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gatsbyjs/gatsby-starter-blog.git"
+    "url": "https://github.com/JuansMgb/Portafolio-Cms.git"
   },
   "scripts": {
     "build": "gatsby build",

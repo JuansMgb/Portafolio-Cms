@@ -12,21 +12,22 @@ const Footer = () => {
     return(
         <footer className="footer">
          
-         <nav className="nav--hero">
-          <a href="/" >Home</a>
-          <a href="/blog">Blog</a>
-        </nav>
-        <div className="icons-footer">
-          <Link href="https://www.linkedin.com/in/juan-sebastian-63498a1a5/"><FontAwesomeIcon className="icon" icon={faLinkedin}/></Link>
-          <Link href="https://github.com/JuansMgb"><FontAwesomeIcon className="icon" icon={faGithub}/></Link>
-          <Link href="https://twitter.com/JuansMgb"><FontAwesomeIcon className="icon" icon={faTwitter}/></Link>
-        </div>
-         <div className="footer--texts">
-         © {new Date().getFullYear()}, Echo Por JuanSebastian.
-         </div>
-   
-     
-  
+          <nav className="nav--hero">
+            <a href="/" >Home</a>
+            <a href="/blog">Blog</a>
+          </nav>
+
+          <section className="icons-footer">
+            <Link href="https://www.linkedin.com/in/juan-sebastian-63498a1a5/"><FontAwesomeIcon className="icon" icon={faLinkedin}/></Link>
+            <Link href="https://github.com/JuansMgb"><FontAwesomeIcon className="icon" icon={faGithub}/></Link>
+            <Link href="https://twitter.com/JuansMgb"><FontAwesomeIcon className="icon" icon={faTwitter}/></Link>
+          </section>
+
+
+          <section className="footer--texts">
+            © {new Date().getFullYear()}, Hecho Por JuanSebastian.
+          </section>
+
         </footer>
     )
 

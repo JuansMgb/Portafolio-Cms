@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `Mi Portafolio`,
+    title: `Portafolio`,
     author: {
       name: `Juans`,
-      summary: `Un Paso a La Vez.`,
+      summary: `Portafolio Personal.`,
     },
     description: `Blog personal.`,
     social: {
@@ -120,7 +120,7 @@ module.exports = {
         // https://css-tricks.com/meta-theme-color-and-trickery/
         // theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/photo_2022-05-07_20-59-57-min.jpg`, // This path is relative to the root of the site.
       },
     },
     `gatsby-plugin-react-helmet`,
