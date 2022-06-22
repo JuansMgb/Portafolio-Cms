@@ -7,7 +7,7 @@ const Nav = () => {
     return(
         <div className="nav--content">
             <nav className="nav">
-              <a href="/" >About</a>
+              <a href="/" >Home</a>
               <a href="/blog">Blog</a>
             </nav>
 
