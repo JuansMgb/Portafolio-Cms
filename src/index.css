@@ -1,7 +1,5 @@
 
-
 .hero{
-
     text-align: center;
     padding-top: 50px;
     display: flex;
@@ -10,9 +8,11 @@
     background: linear-gradient(to top, #1e4564,  #1d66a1, #42a4f4);
 }
 
+
 .hero--content{
     padding-bottom: 10px;
 }
+
 
 .img--about{
     width: 180px;
@@ -22,6 +22,7 @@
     border: 3.6px solid #42a4f4;
     border-radius: 50%;
 }
+
 
 .about--title{
     margin: 0;
@@ -41,7 +42,6 @@
 }
 
 
-
 .icons-content{
     display:  flex;
     justify-content: center;
@@ -50,10 +50,12 @@
     margin-bottom: 28px;
 }
 
+
 .icon{
     color: #b8c0c7;
     cursor: pointer;
 }
+
 
 .nav--hero{
     display: flex;
@@ -61,6 +63,7 @@
     font-size: 1.2rem;
     justify-content: center;
 }
+
 
 .nav--hero a {
     text-decoration: none;
@@ -75,13 +78,16 @@
     background-repeat: no-repeat;
 }
 
+
 /*  main  */
+
 
 .main{
     width: 100%;
     padding-top: 20px;
     text-align: center;
 }
+
 
 .about{
     min-width: 300px;
@@ -92,12 +98,10 @@
 
 .title{
     margin: 0;
-    font-size: 2rem;
     line-height: 1.4;
     color: #42a4f4;
 
 }
-
 
 
 .sub--texts{
@@ -106,6 +110,7 @@
     margin: 0 auto;
     color: #b8c0c7;
 }
+
 
 .section--content{
     padding-top: 100px;
@@ -119,13 +124,24 @@
     background: linear-gradient(to top, #1e4564,  #1d66a1, #42a4f4);
 }
 
+
 .tecno--content{
   max-width: 700px;
   margin: 0 auto;
 }
 
-.title--techno{
+
+.title--tecno{
+    line-height: 1.4;
     color: #b8c0c7;
-    margin-top: 15px;
-    margin-bottom: 38px;
+    margin: 0;
+
+}
+
+
+.sub--tecno{
+    width: 300px;
+    margin: 0 auto;
+    margin-bottom: 32px;
+
 }
