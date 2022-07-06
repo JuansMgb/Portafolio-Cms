@@ -35,9 +35,9 @@ const Index = ({ data, location }) => {
         <p className="about--subtitle">Front End Dev</p>
 
         <div className="icons-content">
-          <Link href="https://www.linkedin.com/in/juan-sebastian-63498a1a5/"><FontAwesomeIcon className="icon" icon={faLinkedin}/></Link>
-          <Link href="https://github.com/JuansMgb"><FontAwesomeIcon className="icon" icon={faGithub}/></Link>
-          <Link href="https://twitter.com/JuansMgb"><FontAwesomeIcon className="icon" icon={faTwitter}/></Link>
+          <Link href="https://www.linkedin.com/in/juan-sebastian-63498a1a5/" target={"_blank"}><FontAwesomeIcon className="icon" icon={faLinkedin}/></Link>
+          <Link href="https://github.com/JuansMgb" target={"_blank"}><FontAwesomeIcon className="icon" icon={faGithub}/></Link>
+          <Link href="https://twitter.com/JuansMgb" target={"_blank"}><FontAwesomeIcon className="icon" icon={faTwitter}/></Link>
         </div>
 
         <nav className="nav--hero">
