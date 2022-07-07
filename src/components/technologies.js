@@ -25,7 +25,7 @@ const Technologies = () => {
 
             <div className="tecno--content">
             <FontAwesomeIcon className="icon--tecno" icon={faJsSquare}/>
-            <h3 className="tecno--subtitle">JavaScritp</h3>
+            <h3 className="tecno--subtitle">JavaScript</h3>
             </div>
 
             <div className="tecno--content">
