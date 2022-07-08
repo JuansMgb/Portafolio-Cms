@@ -5,8 +5,11 @@
     grid-template-columns: 1fr 1fr;
     row-gap: 34px;
     color: #b8c0c7;
-    margin: 64px auto;
     max-width: 500px;
+    margin: 0 auto;
+    padding-top: 42px;
+    padding-bottom: 84px;
+
 }
 
 
