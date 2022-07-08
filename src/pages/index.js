@@ -96,7 +96,7 @@ const Index = ({ data, location }) => {
                 </div>
 
               </div>
-              <button className="buton" type="submit" value="enviar">Enviar</button>
+              <button className="buton" type="submit" >Enviar</button>
 
             </form>
 
