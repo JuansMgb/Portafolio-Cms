@@ -91,7 +91,7 @@ const Index = ({ data, location }) => {
                 </div>
 
                 <div className="form--label">
-                  <textarea className="input mensaje" type="text" name="mensaje" placeholder=" "/>
+                  <textarea className="input mensaje" type="text" name="mensaje" placeholder=" "></textarea>
                   <label className="label--input" for="mensaje">Mensaje.</label>
                 </div>
 
