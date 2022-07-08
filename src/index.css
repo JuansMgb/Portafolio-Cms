@@ -129,7 +129,7 @@
 
 
 .tecno--content{
-    padding-top: 132px;
+    padding-top: 146px;
 }
 
 
@@ -144,3 +144,73 @@
     max-width: 360px;
 }
 
+
+/* form  */ 
+
+.section--form{
+    width: 90%;
+    max-width: 300px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 32px;
+   }
+   
+   
+   .form{
+       display: flex;
+       flex-direction: column;
+       padding-bottom: 64px;
+   }
+   
+   
+   .form--content{
+       display: grid;
+       margin-top: 26px;
+       gap:  28px;
+       width: 288px;
+   }
+   
+   
+   .form--label{
+       position: relative;
+   }
+   
+   
+   .input{
+       width: 100%;
+       color: #626060;
+       font-size: 1rem;
+       padding: .6em .3em;
+       border: none;
+       outline: none;
+       border-bottom: 1px, solid, #42a4f4;
+   }
+   
+   .mensaje{
+       min-height: 100px;
+       max-height: 200px;
+       max-width: 288px;
+   }
+   
+   
+   .input:focus + .label--input, .input:not(:placeholder-shown) + .label--input {
+       transform: translateY(-22px) scale(.7);
+   }
+   
+   
+   .label--input{
+       cursor: pointer;
+       position: absolute;
+       top: 0;
+       left: 5px;
+       transform: translateY(10px);
+       transition: transform .5s, color .5s;
+   }
+   
+   
+   .buton{
+       width: 26%;
+       margin: 22px auto;
+       padding: 8px;
+       color: #706c6c;
+   }
