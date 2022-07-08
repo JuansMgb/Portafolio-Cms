@@ -21,14 +21,10 @@ import { Link } from "gatsby"
 
 
 const Project = () => {
-
- 
-
     return(
-
     
-        
         <section className="projects" >
+        
         <div className="projects--content">
             <article className="projects--card">
                <img  alt="" src={project1} className="img--project" />

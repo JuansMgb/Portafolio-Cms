@@ -9,27 +9,26 @@ import { Link } from "gatsby"
 
 const Footer = () => {
 
-    return(
-        <footer className="footer">
+  return(
+    <footer className="footer">
          
-          <nav className="nav--hero">
-            <a href="/" >Home</a>
-            <a href="/blog">Blog</a>
-          </nav>
+      <nav className="nav--hero">
+        <a href="/" >Home</a>
+        <a href="/blog">Blog</a>
+      </nav>
 
-          <section className="icons-footer">
-            <Link href="https://www.linkedin.com/in/juan-sebastian-63498a1a5/" target={"_blank"}><FontAwesomeIcon className="icon" icon={faLinkedin}/></Link>
-            <Link href="https://github.com/JuansMgb" target={"_blank"}><FontAwesomeIcon className="icon" icon={faGithub}/></Link>
-            <Link href="https://twitter.com/JuansMgb" target={"_blank"}><FontAwesomeIcon className="icon" icon={faTwitter}/></Link>
-          </section>
+      <section className="icons-footer">
+        <Link href="https://www.linkedin.com/in/juan-sebastian-63498a1a5/" target={"_blank"}><FontAwesomeIcon className="icon" icon={faLinkedin}/></Link>
+        <Link href="https://github.com/JuansMgb" target={"_blank"}><FontAwesomeIcon className="icon" icon={faGithub}/></Link>
+        <Link href="https://twitter.com/JuansMgb" target={"_blank"}><FontAwesomeIcon className="icon" icon={faTwitter}/></Link>
+      </section>
 
+      <section className="footer--texts">
+        © {new Date().getFullYear()}, Hecho Por JuanSmgb.
+      </section>
 
-          <section className="footer--texts">
-            © {new Date().getFullYear()}, Hecho Por JuanSebastian.
-          </section>
-
-        </footer>
-    )
+    </footer>
+  )
 
 }
 

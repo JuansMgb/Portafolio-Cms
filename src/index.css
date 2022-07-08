@@ -100,7 +100,6 @@
     margin: 0;
     line-height: 1.4;
     color: #42a4f4;
-
 }
 
 
@@ -112,7 +111,7 @@
 }
 
 
-.section--content{
+.section--project{
     padding-top: 100px;
     min-width: 300px;
     max-width: 700px;
@@ -120,26 +119,99 @@
 }
 
 
-.technologies{
+/* tecnologias */
+
+
+.section--tecno{
     background: linear-gradient(to top, #1e4564,  #1d66a1, #42a4f4);
+    position: relative;
 }
 
 
 .tecno--content{
-  max-width: 700px;
-  margin: 0 auto;
+    padding-top: 132px;
 }
 
 
-.title--tecno{
+.sub--tile{
     line-height: 1.4;
     color: #b8c0c7;
     margin: 0;
 }
 
 
-.sub--tecno{
-    width: 300px;
-    margin: 0 auto;
-    margin-bottom: 62px;
+.sub--texts{
+    max-width: 360px;
 }
+
+
+/*  form */
+
+
+.section--form{
+    width: 90%;
+    max-width: 300px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 32px;
+   }
+   
+   
+   .form{
+       display: flex;
+       flex-direction: column;
+       padding-bottom: 64px;
+   }
+   
+   
+   .form--content{
+       display: grid;
+       margin-top: 26px;
+       gap:  28px;
+       width: 288px;
+   }
+   
+   
+   .form--label{
+       position: relative;
+   }
+   
+   
+   .input{
+       width: 100%;
+       color: #626060;
+       font-size: 1rem;
+       padding: .6em .3em;
+       border: none;
+       outline: none;
+       border-bottom: 1px, solid, #42a4f4;
+   }
+   
+   .mensaje{
+       min-height: 100px;
+       max-height: 200px;
+       max-width: 288px;
+   }
+   
+   
+   .input:focus + .label--input, .input:not(:placeholder-shown) + .label--input {
+       transform: translateY(-22px) scale(.7);
+   }
+   
+   
+   .label--input{
+       cursor: pointer;
+       position: absolute;
+       top: 0;
+       left: 5px;
+       transform: translateY(10px);
+       transition: transform .5s, color .5s;
+   }
+   
+   
+   .buton{
+       width: 26%;
+       margin: 22px auto;
+       padding: 8px;
+       color: #706c6c;
+   }

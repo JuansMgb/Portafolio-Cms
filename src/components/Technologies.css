@@ -5,7 +5,8 @@
     grid-template-columns: 1fr 1fr;
     row-gap: 34px;
     color: #b8c0c7;
-    margin-bottom: 26px;
+    margin: 64px auto;
+    max-width: 500px;
 }
 
 
@@ -17,16 +18,25 @@
 .tecno--subtitle{
     margin: 0;
     line-height: 2;
-    font-size: 1.2rem;
+    font-size: 1rem;
+    padding-top: 6px;
 }
 
 
 .wave--top{
-    margin-bottom: 62px;
+    position: absolute;
+    top: -2px;
+    left: 0;
+    width: 100%;
+    height: 100px;
 }
 
 
 .wave--botton{
-    position: relative;
-    top: 4px;
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 100%;
+    height: 100px;
 }
+
