@@ -82,7 +82,7 @@ const Index = ({ data, location }) => {
             <h3 className="sub--tile">Contactame</h3>
             <p className="sub--texts">Dejame tu mensaje</p>
 
-            <form className="form" name="form" method="POST" netlify>
+            <form className="form" name="form" method="POST" data-netlify="true">
               <div className="form--content">
 
                 <div className="form--label">
