@@ -88,12 +88,12 @@ const Index = ({ data, location }) => {
               <div className="form--content">
 
                 <div className="form--label">
-                  <input className="input" id="email" type="email" name="email" placeholder=" "/>
+                  <input required className="input" id="email" type="email" name="email" placeholder=" "/>
                   <label className="label--input" for="email">Correo.</label>
                 </div>
 
                 <div className="form--label">
-                  <textarea  className="input mensaje" id="mensaje" type="text" name="mensaje" placeholder=" " ></textarea>
+                  <textarea required className="input mensaje" id="mensaje" type="text" name="mensaje" placeholder=" " ></textarea>
                   <label className="label--input">Mensaje.</label>
                 </div>
 
