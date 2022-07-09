@@ -8,5 +8,5 @@ Hola Mundo ;D
 
 Este es el primer post q hago en mi sitio web 
 
-Estaré Publicado mis avances y mis anotaciones como desarrollador de software
+Estaré Publicado mis avances y mis anotaciones como desarrollador de software.
 
