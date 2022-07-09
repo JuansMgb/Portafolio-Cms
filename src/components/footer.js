@@ -3,7 +3,7 @@ import * as React from "react"
 import "../components/footer.css"
 
 import {FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faLinkedin, faGithub, faTwitter, } from "@fortawesome/free-brands-svg-icons"
+import { faLinkedin, faGithub, faTwitter, faWhatsapp, } from "@fortawesome/free-brands-svg-icons"
 
 import { Link } from "gatsby"
 
@@ -21,6 +21,7 @@ const Footer = () => {
         <Link href="https://www.linkedin.com/in/juan-sebastian-63498a1a5/" target={"_blank"}><FontAwesomeIcon className="icon" icon={faLinkedin}/></Link>
         <Link href="https://github.com/JuansMgb" target={"_blank"}><FontAwesomeIcon className="icon" icon={faGithub}/></Link>
         <Link href="https://twitter.com/JuansMgb" target={"_blank"}><FontAwesomeIcon className="icon" icon={faTwitter}/></Link>
+        <Link href="https://wa.me/573103513437?text=Hola :D, Dejame un mensaje" target={"_blank"}><FontAwesomeIcon className="icon" icon={faWhatsapp}/></Link>
       </section>
 
       <section className="footer--texts">

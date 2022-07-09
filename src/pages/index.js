@@ -11,7 +11,7 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 
 import {FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faLinkedin, faGithub, faTwitter, } from "@fortawesome/free-brands-svg-icons"
+import { faLinkedin, faGithub, faTwitter, faWhatsapp } from "@fortawesome/free-brands-svg-icons"
 import { Helmet } from "react-helmet"
 
 
@@ -40,6 +40,7 @@ const Index = ({ data, location }) => {
             <Link href="https://www.linkedin.com/in/juan-sebastian-63498a1a5/" target={"_blank"}><FontAwesomeIcon className="icon" icon={faLinkedin}/></Link>
             <Link href="https://github.com/JuansMgb" target={"_blank"}><FontAwesomeIcon className="icon" icon={faGithub}/></Link>
             <Link href="https://twitter.com/JuansMgb" target={"_blank"}><FontAwesomeIcon className="icon" icon={faTwitter}/></Link>
+            <Link href="https://wa.me/573103513437?text=Hola :D, Dejame un mensaje" target={"_blank"}><FontAwesomeIcon className="icon" icon={faWhatsapp}/></Link>
           </div>
 
           <nav className="nav--hero">
@@ -75,7 +76,8 @@ const Index = ({ data, location }) => {
 
           <section className="tecno--content">
             <h2 className="sub--tile">Habilidades</h2>
-            <p className="sub--texts">Uso de tecnologías para el desarrollo de aplicaciones y sitios web</p>
+            <p className="sub--texts">Uso de tecnologías para el desarrollo</p>
+            <p className="sub--texts">de aplicaciones y sitios web</p>
             <Technologies />
           </section>
 
@@ -96,6 +98,7 @@ const Index = ({ data, location }) => {
                   <textarea required className="input mensaje" id="mensaje" type="text" name="mensaje" placeholder=" " ></textarea>
                   <label className="label--input">Mensaje.</label>
                 </div>
+                
 
               </div>
               <button className="buton" type="submit">Enviar</button>

@@ -141,7 +141,7 @@
 
 
 .sub--texts{
-    max-width: 360px;
+
 }
 
 
@@ -153,64 +153,64 @@
     margin: 0 auto;
     text-align: center;
     padding-top: 32px;
-   }
+}
    
    
-   .form{
-       display: flex;
-       flex-direction: column;
-       padding-bottom: 64px;
-   }
+.form{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 84px;
+}
    
    
-   .form--content{
-       display: grid;
-       margin-top: 26px;
-       gap:  28px;
-       width: 288px;
-   }
+.form--content{
+    display: grid;
+    margin-top: 26px;
+    gap:  28px;
+    width: 288px;
+}
    
    
-   .form--label{
-       position: relative;
-   }
+.form--label{
+    position: relative;
+}
    
    
-   .input{
-       width: 100%;
-       color: #626060;
-       font-size: 1rem;
-       padding: .6em .3em;
-       border: none;
-       outline: none;
-       border-bottom: 1px, solid, #42a4f4;
-   }
+.input{
+    width: 100%;
+    color: #626060;
+    font-size: 1rem;
+    padding: .6em .3em;
+    border: none;
+    outline: none;
+    border-bottom: 1px, solid, #42a4f4;
+}
    
-   .mensaje{
-       min-height: 100px;
-       max-height: 200px;
-       max-width: 288px;
-   }
-   
-   
-   .input:focus + .label--input, .input:not(:placeholder-shown) + .label--input {
-       transform: translateY(-22px) scale(.7);
-   }
+.mensaje{
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 288px;
+}
    
    
-   .label--input{
-       cursor: pointer;
-       position: absolute;
-       top: 0;
-       left: 5px;
-       transform: translateY(10px);
-       transition: transform .5s, color .5s;
-   }
+.input:focus + .label--input, .input:not(:placeholder-shown) + .label--input {
+    transform: translateY(-22px) scale(.7);
+}
    
    
-   .buton{
-       width: 26%;
-       margin: 22px auto;
-       padding: 8px;
-       color: #706c6c;
-   }
+.label--input{
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 5px;
+    transform: translateY(10px);
+    transition: transform .5s, color .5s;
+}
+   
+   
+.buton{
+    width: 26%;
+    margin: 22px auto;
+    padding: 8px;
+    color: #706c6c;
+}
