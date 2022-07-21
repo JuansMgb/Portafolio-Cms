@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-blog",
+  "name": "blog",
   "private": true,
-  "description": "A starter for a blog powered by Gatsby and Markdown",
+  "description": "Portafoli",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "juans",
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
   },
@@ -46,10 +46,7 @@
     "gatsby"
   ],
   "license": "0BSD",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/JuansMgb/Portafolio-Cms.git"
-  },
+  "repository": "https://github.com/JuansMgb/Portafolio-Cms.git",
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
@@ -58,5 +55,6 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
-  }
+  },
+  "main": "index.js"
 }
