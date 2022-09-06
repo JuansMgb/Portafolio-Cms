@@ -2,7 +2,7 @@
 
 .tecno{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     row-gap: 34px;
     color: #b8c0c7;
     max-width: 500px;
@@ -13,15 +13,19 @@
 }
 
 
-.icon--tecno{
-    font-size: 3.6rem;
+.content--img{
+    width: 100px;
+    margin: 0 auto;
 }
 
+.content--img img{ 
+    width: 60%;
+}
 
 .tecno--subtitle{
     margin: 0;
     line-height: 2;
-    font-size: 1rem;
+    font-size: 14px;
     padding-top: 6px;
 }
 

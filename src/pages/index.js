@@ -2,17 +2,20 @@ import * as React from "react"
 import { graphql, Link } from "gatsby"
 import "../index.css"
 
-
- import foto from "../images/photo_2022-05-07_20-59-57-min.jpg"
+import foto from "../images/photo_2022-05-07_20-59-57-min.jpg"
+import project1 from "../images/project1-min.jpg"
+import project2 from "../images/project2-min.jpg"
+import project3 from "../images/project3-min.jpg"
+import project4 from "../images/project4-min.jpg"
 
 import Technologies from "../components/technologies"
-import Project from "../components/project"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
 import {FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faLinkedin, faGithub, faTwitter, faWhatsapp } from "@fortawesome/free-brands-svg-icons"
+import { faArtstation } from "@fortawesome/free-brands-svg-icons"
 import { Helmet } from "react-helmet"
+
 
 
 const Index = ({ data, location }) => {
@@ -34,15 +37,9 @@ const Index = ({ data, location }) => {
           </figure>
 
           <h2 className="about--title">Juan Sebastian</h2>
-          <p className="about--subtitle">Front End Dev</p>
-
-          <div className="icons-content">
-            <Link href="https://www.linkedin.com/in/juan-sebastian-63498a1a5/" target={"_blank"}><FontAwesomeIcon className="icon" icon={faLinkedin}/></Link>
-            <Link href="https://github.com/JuansMgb" target={"_blank"}><FontAwesomeIcon className="icon" icon={faGithub}/></Link>
-            <Link href="https://twitter.com/JuansMgb" target={"_blank"}><FontAwesomeIcon className="icon" icon={faTwitter}/></Link>
-            <Link href="https://wa.me/573103513437?text=Hola :D, Dejame un mensaje" target={"_blank"}><FontAwesomeIcon className="icon" icon={faWhatsapp}/></Link>
-          </div>
-
+          <p className="about--subtitle">Full Stack Developer</p>
+          <p className="about--location">Colombia / Medellín </p>
+          
           <nav className="nav--hero">
             <a href="/" >Home</a>
             <a href="/blog">Blog</a>
@@ -66,7 +63,79 @@ const Index = ({ data, location }) => {
       
         <section className="section--project">
           <h2 className="title">Mis Projectos</h2>
-          <Project />
+      
+          <section className="projects" >
+                <div className="projects--content">
+                    <article className="projects--card">
+                      <img  alt="project1" src={project1} className="img--project" />
+                        <div className="projects--modal">
+                            <h3 className="projects--title">Piedra, Papel o Tijeras</h3>
+                            <div className="projects--stack">
+                            <p>JavaScript</p>
+                            <p>Html</p>
+                            <p>Css</p>
+                            </div>
+                            <Link target={"_blank"} href="https://animated-selkie-596502.netlify.app" className="projects--btn button btn--small"><FontAwesomeIcon icon={faArtstation}></FontAwesomeIcon></Link>
+                        </div>
+                    </article>
+                </div>
+
+                <div className="projects--content">
+                    <article className="projects--card">
+                      <img  alt="project2" src={project2} className="img--project" />
+                       
+                        <div className="projects--modal">
+                        <h3 className="projects--title">Films Api</h3>
+                            <div className="projects--stack">
+                            <p>JavaScript</p>
+                            <p>Html</p>
+                            <p>Css</p>
+                            <p>Api Rest</p>
+                           
+                            
+                            </div>
+                            <Link target={"_blank"} href="https://calm-rabanadas-efd3f0.netlify.app" className="projects--btn button btn--small"><FontAwesomeIcon icon={faArtstation}></FontAwesomeIcon></Link>
+                        </div>
+                    </article>
+                </div>
+
+                <div className="projects--content">
+                    <article className="projects--card">
+                      <img  alt="project3" src={project3} className="img--project" />
+                       
+                        <div className="projects--modal">
+                        <h3 className="projects--title">Pokedex Api</h3>
+                            <div className="projects--stack">
+                            <p>JavaScript</p>
+                            <p>Html</p>
+                            <p>Css</p>
+                            <p>Api Rest</p>
+                            
+                           
+                            </div>
+                            <Link target={"_blank"} href="https://github.com/JuansMgb/Poke-Api" className="projects--btn button btn--small"><FontAwesomeIcon icon={faArtstation}></FontAwesomeIcon></Link>
+                        </div>
+                    </article>
+                </div>
+
+                <div className="projects--content">
+                    <article className="projects--card">
+                      <img  alt="project4" src={project4} className="img--project" />
+                        
+                        <div className="projects--modal">
+                        <h3 className="projects--title">Regristro de ip</h3>
+                            <div className="projects--stack">
+                            <p>JavaScript</p>
+                            <p>Html</p>
+                            <p>Css</p>
+                            <p>Api Rest</p>
+                            </div>
+                            <Link target={"_blank"} href="https://ipuseres.netlify.app" className="projects--btn button btn--small"><FontAwesomeIcon icon={faArtstation}></FontAwesomeIcon></Link>
+                        </div>
+                    </article>
+                </div>
+
+          </section>
         </section>
 
         <section className="section--tecno">
@@ -114,6 +183,7 @@ const Index = ({ data, location }) => {
         </section>
 
       </main>
+
     </Layout>
   )
 }
