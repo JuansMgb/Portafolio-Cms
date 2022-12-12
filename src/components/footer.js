@@ -26,7 +26,7 @@ const Footer = () => {
       </section>
 
       <section className="footer--texts">
-        © {new Date().getFullYear()}, Desarrollado Por JuanSmgb.
+        © {new Date().getFullYear()}, Desarrollado Por <a href="https://github.com/JuansMgb" target={"_blank"}>JuanSmgb</a>.
       </section>
 
     </footer>

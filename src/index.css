@@ -247,7 +247,7 @@
     display: flex;
     gap: 20px;
     justify-content: center;
-    padding: 20px;
+    padding: 12px;
 }
 
 
@@ -269,11 +269,7 @@
     position: relative;
     min-height: 420px;
     padding-bottom: 140px;
-
-
-   
 }
-
 
 
 .content div{
@@ -289,6 +285,7 @@
     width: 100%;
 }
 
+
 .section--tab{
     position: absolute;
     line-height: 1.8;
@@ -299,18 +296,21 @@
     padding-bottom: 40px;
     justify-content: center;
     width: 100%;
-    height: 280px;
+    min-height: 280px;
 }
+
 
 .info--stack{
     position: absolute;
     margin: 0;
 }
 
+
 #radio1,#radio2,#radio3{
     display: none;
 
 }
+
 
 #radio2:checked ~ .tab2,
 #radio3:checked ~ .tab3{
@@ -320,16 +320,19 @@
 
 } 
 
+
 .section--icons{
     display: inline-block;
 
 }
+
 
 .content--icons{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 18px;
 }
+
 
 .info--stack{
     position: absolute;
@@ -341,13 +344,14 @@
     margin: 0;
 }
 
+
 .sub--icon{
     font-size: 0.7rem;
 }
 
 
-
 /* form  */ 
+
 
 .section--form{
     width: 90%;
