@@ -53,14 +53,16 @@ const Index = ({ data, location }) => {
       </header>
 
       <main className="main">
-        <section>
-          <h2 className="title">Sobre Mi</h2>
-          <p className="sub--texts">Me Considero una Persona Independiente Apasionada por Aprender Cosas Nuevas q me Ayuden a Alcanzar mis Objetivos.</p>
-        </section>
+        
 
     
 
         <section className="section--project">
+
+          <section className="section--about">
+            <h2 className="title">Sobre Mi</h2>
+            <p className="sub--texts">Me Considero una Persona Independiente Apasionada por Aprender Cosas Nuevas q me Ayuden a Alcanzar mis Objetivos.</p>
+          </section>
           <h2 className="title">Proyectos</h2>
           
           <section className="projects" >
@@ -175,7 +177,7 @@ const Index = ({ data, location }) => {
             <input type="radio" name="radio" id="radio2" />
             <div className="tab2">
                     <h2 className="sub--title">Desarrollo FrontEnd</h2>
-                    <p className="sub--texts">Desarrollo de aplicacion y sitio</p>
+                    <p className="sub--texts">Desarrollo de Aplicacion y Sitio Web</p>
 
                     <section className="content--icons">
                       <span className="span--icon">
@@ -229,8 +231,8 @@ const Index = ({ data, location }) => {
 
             <input type="radio" name="radio" id="radio3" />
             <div className="tab3">
-                <h2 className="sub--title">Desarrollor BackEnd</h2>
-                <p className="sub--texts">Desarrollo de aplicacion y sitio</p>
+                <h2 className="sub--title">Desarrollo BackEnd</h2>
+                <p className="sub--texts">Desarrollo de Aplicacion y Sitio Web</p>
 
                 <section className="content--icons">
                  
