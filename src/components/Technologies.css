@@ -1,49 +1,70 @@
 
 
-.tecno{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    row-gap: 34px;
-    color: #b8c0c7;
-    max-width: 500px;
-    margin: 0 auto;
-    padding-top: 42px;
-    padding-bottom: 84px;
-
-}
-
-
-.content--img{
-    width: 100px;
-    margin: 0 auto;
-}
-
-.content--img img{ 
-    width: 60%;
-}
-
-.tecno--subtitle{
-    margin: 0;
-    line-height: 2;
-    font-size: 14px;
-    padding-top: 6px;
-}
-
-
-.wave--top{
-    position: absolute;
-    top: -2px;
-    left: 0;
+.container{
     width: 100%;
-    height: 100px;
+    max-width: 700px;
+    margin: auto;
+    margin-top: 100px;
 }
 
 
-.wave--botton{
+.lbl-menu{
+
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+
+.lbl-menu label{
+    display: inline-block;
+    padding: 20px;
+    color: #fff;
+    cursor: pointer;
+    transition: all 400ms ease;
+}
+
+
+.lbl-menu label:hover{
+    background: #28435d;
+    border-radius: 20px;
+}
+
+
+.content{
+    position: relative;
+}
+
+
+.content div{
     position: absolute;
-    bottom: -2px;
-    left: 0;
-    width: 100%;
-    height: 100px;
+    line-height: 1.8;
+    transition: all 600ms ease;
+    opacity: 0;
+    visibility: hidden;
+    transform: scale(0.90);
+    padding: 30px;
+    background: #fff;
+    padding-bottom: 40px;
 }
+
+
+#radio1,#radio2,#radio3,#radio4{
+    display: none;
+
+}
+
+
+#radio1:checked ~ .tab1,
+#radio2:checked ~ .tab2,
+#radio3:checked ~ .tab3,
+#radio4:checked ~ .tab4
+{
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1);
+}
+
+
+
 

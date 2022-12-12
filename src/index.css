@@ -1,4 +1,6 @@
 
+
+
 .hero{
     text-align: center;
     padding-top: 50px;
@@ -10,7 +12,7 @@
 
 
 .hero--content{
-    padding-bottom: 10px;
+    padding-bottom: 23px;
 }
 
 
@@ -79,12 +81,12 @@
 }
 
 
-/*  main  */
 
+/* main */
 
 .main{
     width: 100%;
-    padding-top: 20px;
+    text-align: center;
 }
 
 
@@ -99,28 +101,44 @@
 .title{
     margin: 0;
     line-height: 1.4;
-    color: #42a4f4;
+    color: #2f77b1;
     text-align: center;
 }
 
+.sub--title{
+    line-height: 1.2;
+    color: #395b77;
+    margin: 0;
+}
+
+.sub--texts{
+    width: 80%;
+    font-size: 1rem;
+    margin: 0 auto;
+    padding-top: 12px;
+    padding-bottom: 18px;
+    color: #b8c0c7;
+}
+
+
+
+
+/* projects */
 
 .section--project{
-    padding-top: 100px;
+    padding-top: 86px;
     min-width: 300px;
     max-width: 700px;
     margin: 0 auto;
 }
 
 
-/* projects */
-
-
 .projects{
     width: 90%;
     padding-top: 38px;
-    padding-bottom: 38px;
     margin: 0 auto;
     display: grid;
+    grid-template-rows: 1fr;
     gap: 28px;
 }
 
@@ -148,8 +166,6 @@
     align-items: flex-end;
     padding:  1.0rem 1.20rem;
     transition: .3s;
-
-    
 }
 
 
@@ -184,11 +200,10 @@
 
 .button{
     display: inline-flex;
-    width: 15%;
     align-items: center;
     column-gap: .5rem;
     background-color: #fff;
-    color: #1e4564;
+    color: #fff;
     margin-top: 3.35rem;
     padding: 1.15rem;
     border-radius: .5rem;
@@ -215,32 +230,121 @@
 }
   
 
-/* tecnologias */
 
 
-.section--tecno{
-    background: linear-gradient(to top, #1e4564,  #1d66a1, #42a4f4);
+/*  Stack develop  */
+
+
+.container{
+    width: 100%;
+    max-width: 700px;
+    margin: auto;
+    margin-top: 60px;
+}
+
+
+.lbl-menu{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+
+.lbl-menu label{
+    display: inline-block;
+    padding: 12px;
+    color: #fff;
+    cursor: pointer;
+    transition: all 400ms ease;
+}
+
+
+.lbl-menu label:hover{
+    border-radius: 20px;
+}
+
+
+.content {
     position: relative;
-    text-align: center;
+    min-height: 420px;
+    padding-bottom: 140px;
+
+
+   
 }
 
 
-.tecno--content{
-    padding-top: 146px;
+
+.content div{
+    position: absolute;
+    line-height: 1.8;
+    transition: all 600ms ease;
+    opacity: 0;
+    transform: scale(0.90);
+    padding: 18px;
+    background: #fff;
+    padding-bottom: 40px;
+    justify-content: center;
+    width: 100%;
 }
 
-.sub--texts{
-    width: 93%;
-    font-size: 1rem;
-    margin: 0 auto;
-    color: #b8c0c7;
+.section--tab{
+    position: absolute;
+    line-height: 1.8;
+    transition: all 600ms ease;
+    transform: scale(0.90);
+    padding: 18px;
+    background: #fff;
+    padding-bottom: 40px;
+    justify-content: center;
+    width: 100%;
+    height: 280px;
 }
 
-.sub--tile{
-    line-height: 1.4;
-    color: #b8c0c7;
+.info--stack{
+    position: absolute;
     margin: 0;
 }
+
+#radio1,#radio2,#radio3{
+    display: none;
+
+}
+
+#radio2:checked ~ .tab2,
+#radio3:checked ~ .tab3{
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1);
+
+} 
+
+.section--icons{
+    display: inline-block;
+
+}
+
+.content--icons{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 18px;
+}
+
+.info--stack{
+    position: absolute;
+}
+
+
+.title--icon{
+    font-size: 0.8rem;
+    margin: 0;
+}
+
+.sub--icon{
+    font-size: 0.7rem;
+}
+
 
 
 /* form  */ 
