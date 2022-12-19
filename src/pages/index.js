@@ -150,7 +150,6 @@ const Index = ({ data, location }) => {
           </div>
 
           <div className="content">
-
             <input type="radio" name="radio" id="radio1" />
             <section className="tab1 section--tab">
               <h2 className="sub--title">Apasionado</h2>

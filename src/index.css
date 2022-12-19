@@ -285,7 +285,7 @@
     opacity: 0;
     transform: scale(0.90);
     width: 100%;
-    min-height: 300px;
+    height: 400px;
     padding: 18px;
     padding-bottom: 26px;
     background: #fff;
@@ -299,7 +299,7 @@
     transition: all 600ms ease;
     transform: scale(0.90);
     width: 100%;
-    min-height: 300px;
+    min-height: 200px;
     padding: 18px;
     padding-bottom: 26px;
     background: #fff;
@@ -319,6 +319,8 @@
 }
 
 
+
+#radio1:checked ~ .tab1,
 #radio2:checked ~ .tab2,
 #radio3:checked ~ .tab3{
     opacity: 1;
