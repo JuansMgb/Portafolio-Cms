@@ -142,7 +142,11 @@ const Index = ({ data, location }) => {
         <section>
 
         <div className="container">
+          
           <h2 className="title">Stack Develop</h2>
+          <p  className="sub--texts">Ingeniero en desarrollo de software, 
+          con mas de dos años en esta gran carrera como independiente, especializado en la capaciadad del uso de tecnologias de desarrollo.
+          </p>
           <div className="lbl-menu">
             <label for="radio2">Cliente</label>
             <label for="radio1">Stack</label>
@@ -151,12 +155,9 @@ const Index = ({ data, location }) => {
 
           <div className="content">
             <input type="radio" name="radio" id="radio1" />
-            <section className="tab1 section--tab">
+            <div className="tab1">
               <h2 className="sub--title">Apasionado</h2>
               <h4 className="sub--title">Del Saber</h4>
-              <p  className="sub--texts">Ingeniero en desarrollo de software, 
-              con mas de dos años en esta gran carrera como independiente, especializado en la capaciadad del uso de tecnologias de desarrollo.
-              </p>
               
               <section className="content--icons">
                 <span className="span--icon">
@@ -220,7 +221,7 @@ const Index = ({ data, location }) => {
                 </span>
 
               </section>
-            </section>
+            </div>
 
             <input type="radio" name="radio" id="radio2" />
             <div className="tab2">
@@ -334,11 +335,26 @@ const Index = ({ data, location }) => {
           </div>    
 
         </div>
+        
+        <section className="section--wave">
+          <svg preserveAspectRatio="none" className="wave--top" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#0c151d" fill-opacity="1" d="M0,96L120,133.3C240,171,480,245,720,250.7C960,256,1200,192,1320,160L1440,128L1440,0L1320,0C1200,0,960,0,720,0C480,0,240,0,120,0L0,0Z"></path>
+          </svg>
+
+          <svg preserveAspectRatio="none" className="wave--botton" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#0c151d" fill-opacity="1" d="M0,96L120,133.3C240,171,480,245,720,250.7C960,256,1200,192,1320,160L1440,128L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"></path>
+          </svg>
+        </section>
 
         </section>
-     
+
+        
 
       </main>
+
+     
+
+      
 
     </Layout>
   )

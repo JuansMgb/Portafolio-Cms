@@ -1,7 +1,5 @@
 
 .footer{
-    padding-top: 86px;
-    padding-bottom: 10px;
     text-align: center;
 }
 
@@ -19,3 +17,24 @@
     font-size: 1.2rem;
     gap: 20px;
 }
+
+@media screen and (min-width: 385px) {
+    .footer{
+        padding-top: 340px;
+    }
+}
+
+@media screen and (min-width: 645px) {
+    .footer{
+        padding-top: 140px;
+    }
+}
+
+@media screen and (min-width: 745px) {
+    .footer{
+        padding-top: 40px;
+    }
+}
+
+
+
