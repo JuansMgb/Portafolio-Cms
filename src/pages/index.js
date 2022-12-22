@@ -139,214 +139,224 @@ const Index = ({ data, location }) => {
         </section>
 
         
-        <section>
+        <section className="content--stack">
 
-        <div className="container">
-          
-          <h2 className="title">Stack Develop</h2>
-          <p  className="sub--texts">Ingeniero en desarrollo de software, 
-          con mas de dos años en esta gran carrera como independiente, especializado en la capaciadad del uso de tecnologias de desarrollo.
-          </p>
-          <div className="lbl-menu">
-            <label for="radio2">Cliente</label>
-            <label for="radio1">Stack</label>
-            <label for="radio3">Servidor</label>
+          <div className="container">
+            
+            <h2 className="title">Stack Develop</h2>
+            <p  className="sub--texts">Ingeniero en desarrollo de software, 
+            con mas de dos años en esta gran carrera como independiente, especializado en la capaciadad del uso de tecnologias de desarrollo.
+            </p>
+            <div className="lbl-menu">
+              <label for="radio2">Cliente</label>
+              <label for="radio1">Stack</label>
+              <label for="radio3">Servidor</label>
+            </div>
+
+            <div className="content">
+              <input type="radio" name="radio" id="radio1" />
+              <div className="tab1">
+                <h2 className="sub--title">Apasionado</h2>
+                <h4 className="sub--title">Del Saber</h4>
+                
+                <section className="content--icons">
+                  <span className="span--icon">
+                    <box-icon color="#1e4564" size="30px" name='javascript' type='logo' />
+                    <h3 className="title--icon">JavaScript</h3>
+                  </span>
+
+                  <span className="span--icon">
+                    <box-icon color="#1e4564" size="30px" name='typescript' type='logo' />
+                    <h3 className="title--icon">TypeScript</h3>
+                  </span>
+
+                  <span className="span--icon">
+                    <box-icon color="#1e4564" size="30px" name='html5' type='logo' />
+                    <h3 className="title--icon">Html5</h3>
+                  </span>
+
+                  <span className="span--icon">
+                    <box-icon color="#1e4564" size="30px" name='css3' type='logo' />
+                    <h3 className="title--icon">Css</h3>
+                  </span>
+
+                  <span className="span--icon">
+                    <box-icon color="#1e4564" size="30px" name='react' type='logo' />
+                    <h3 className="title--icon">React</h3>
+                  </span>
+                      
+                  <span className="span--icon">
+                    <box-icon color="#1e4564" size="30px" name='tailwind-css' type='logo' />
+                    <h3 className="title--icon">Tailwind</h3>
+                  </span>
+
+                  <span className="span--icon">
+                    <box-icon color="#1e4564" size="30px" name='git' type='logo' />
+                    <h3 className="title--icon">Git</h3>
+                  </span>
+
+                  <span className="span--icon">
+                    <box-icon color="#1e4564" size="30px" name='graphql' type='logo' />
+                    <h3 className="title--icon">GraphQL</h3>
+                  </span>
+
+                  <span className="span--icon">
+                    <box-icon color="#1e4564" size="30px" name='docker' type='logo' />
+                    <h3 className="title--icon">Docker</h3>
+                  </span>
+
+                  <span className="span--icon">
+                    <box-icon color="#1e4564" size="30px" name='nodejs' type='logo' />
+                    <h3 className="title--icon">Node Express Js</h3>
+                  </span>
+
+                  <span className="span--icon">
+                    <box-icon color="#1e4564" size="30px" name='mongodb' type='logo' />
+                    <h3 className="title--icon">MongoDB</h3>
+                  </span>
+
+                  <span className="span--icon">
+                    <box-icon color="#1e4564" size="30px" name='data' type='solid' />
+                    <h3 className="title--icon">MySQL</h3>
+                  </span>
+
+                </section>
+              </div>
+
+              <input type="radio" name="radio" id="radio2" />
+              <div className="tab2">
+                <h2 className="sub--title">Desarrollo FrontEnd</h2>
+                <p className="sub--texts">Tecnologías de Desarrollo</p>
+
+                <section className="content--icons">
+                  <span className="span--icon">
+                    <box-icon color="#1e4564" size="30px" name='javascript' type='logo' />
+                    <h3 className="title--icon">JavaScript</h3>
+                  </span>
+
+                  <span className="span--icon">
+                    <box-icon color="#1e4564" size="30px" name='html5' type='logo' />
+                    <h3 className="title--icon">Html5</h3>
+                  </span>
+
+                  <span className="span--icon">
+                    <box-icon color="#1e4564" size="30px" name='css3' type='logo' />
+                    <h3 className="title--icon">Css</h3>
+                  </span>
+
+                  <span className="span--icon">
+                    <box-icon color="#1e4564" size="30px" type='logo' name='sass' />
+                    <h3 className="title--icon">Sass</h3>
+                  </span>
+
+                  <span className="span--icon">
+                    <box-icon color="#1e4564" size="30px" name='figma' type='logo' />
+                    <h3 className="title--icon">Figma</h3>
+                  </span>
+
+                  <span className="span--icon">
+                    <box-icon color="#1e4564" size="30px" name='react' type='logo' />
+                    <h3 className="title--icon">React</h3>
+                  </span>
+
+                  <span className="span--icon">
+                    <box-icon color="#1e4564" size="30px" name='vuejs' type='logo' />
+                    <h3 className="title--icon">VueJs</h3>
+                  </span>
+                      
+                  <span className="span--icon">
+                    <box-icon color="#1e4564" size="30px" name='tailwind-css' type='logo' />
+                    <h3 className="title--icon">Tailwind</h3>
+                  </span>
+
+                  <span className="span--icon">
+                    <box-icon color="#1e4564" size="30px" name='bootstrap' type='logo' />
+                    <h3 className="title--icon">Bootstrap</h3>
+                  </span>
+                </section>
+              </div>           
+
+              <input type="radio" name="radio" id="radio3" />
+              <div className="tab3">
+                <h2 className="sub--title">Desarrollo BackEnd</h2>
+                <p className="sub--texts">Tecnologías de Desarrollo</p>
+
+                <section className="content--icons">
+                  
+                  <span className="span--icon">
+                    <box-icon color="#1e4564" size="30px" name='typescript' type='logo' />
+                    <h3 className="title--icon">TypeScript</h3>
+                  </span>
+
+                  <span className="span--icon">
+                    <box-icon color="#1e4564" size="30px" name='graphql' type='logo' />
+                    <h3 className="title--icon">GraphQL</h3>
+                  </span>
+
+                  <span className="span--icon">
+                    <box-icon color="#1e4564" size="30px" name='git' type='logo' />
+                    <h3 className="title--icon">Git</h3>
+                  </span>
+
+                  <span className="span--icon">
+                    <box-icon color="#1e4564" size="30px" name='docker' type='logo' />
+                    <h3 className="title--icon">Docker</h3>
+                  </span>
+
+                  <span className="span--icon">
+                    <box-icon color="#1e4564" size="30px" name='kubernetes' type='logo' />
+                    <h3 className="title--icon">Kubernetes</h3>
+                  </span>
+
+                  <span className="span--icon">
+                    <box-icon color="#1e4564" size="30px" name='nodejs' type='logo' />
+                    <h3 className="title--icon">Node Express Js</h3>
+                  </span>
+        
+                  <span className="span--icon">
+                    <box-icon color="#1e4564" size="30px" name='firebase' type='logo' />
+                    <h3 className="title--icon">Firebase</h3>
+                  </span>
+
+                  <span className="span--icon">
+                    <box-icon color="#1e4564" size="30px" name='mongodb' type='logo' />
+                    <h3 className="title--icon">MongoDB</h3>
+                  </span>
+
+                  <span className="span--icon">
+                    <box-icon color="#1e4564" size="30px" name='data' type='solid' />
+                    <h3 className="title--icon">MySQL</h3>
+                  </span>
+
+                </section>
+                  
+              </div>
+                      
+            </div>    
+
           </div>
 
-          <div className="content">
-            <input type="radio" name="radio" id="radio1" />
-            <div className="tab1">
-              <h2 className="sub--title">Apasionado</h2>
-              <h4 className="sub--title">Del Saber</h4>
-              
-              <section className="content--icons">
-                <span className="span--icon">
-                  <box-icon color="#1e4564" size="30px" name='javascript' type='logo' />
-                  <h3 className="title--icon">JavaScript</h3>
-                </span>
-
-                <span className="span--icon">
-                  <box-icon color="#1e4564" size="30px" name='typescript' type='logo' />
-                  <h3 className="title--icon">TypeScript</h3>
-                </span>
-
-                <span className="span--icon">
-                  <box-icon color="#1e4564" size="30px" name='html5' type='logo' />
-                  <h3 className="title--icon">Html5</h3>
-                </span>
-
-                <span className="span--icon">
-                  <box-icon color="#1e4564" size="30px" name='css3' type='logo' />
-                  <h3 className="title--icon">Css</h3>
-                </span>
-
-                <span className="span--icon">
-                  <box-icon color="#1e4564" size="30px" name='react' type='logo' />
-                  <h3 className="title--icon">React</h3>
-                </span>
-                    
-                <span className="span--icon">
-                  <box-icon color="#1e4564" size="30px" name='tailwind-css' type='logo' />
-                  <h3 className="title--icon">Tailwind</h3>
-                </span>
-
-                <span className="span--icon">
-                  <box-icon color="#1e4564" size="30px" name='git' type='logo' />
-                  <h3 className="title--icon">Git</h3>
-                </span>
-
-                <span className="span--icon">
-                  <box-icon color="#1e4564" size="30px" name='graphql' type='logo' />
-                  <h3 className="title--icon">GraphQL</h3>
-                </span>
-
-                <span className="span--icon">
-                  <box-icon color="#1e4564" size="30px" name='docker' type='logo' />
-                  <h3 className="title--icon">Docker</h3>
-                </span>
-
-                <span className="span--icon">
-                  <box-icon color="#1e4564" size="30px" name='nodejs' type='logo' />
-                  <h3 className="title--icon">Node Express Js</h3>
-                </span>
-
-                <span className="span--icon">
-                  <box-icon color="#1e4564" size="30px" name='mongodb' type='logo' />
-                  <h3 className="title--icon">MongoDB</h3>
-                </span>
-
-                <span className="span--icon">
-                  <box-icon color="#1e4564" size="30px" name='data' type='solid' />
-                  <h3 className="title--icon">MySQL</h3>
-                </span>
-
-              </section>
-            </div>
-
-            <input type="radio" name="radio" id="radio2" />
-            <div className="tab2">
-              <h2 className="sub--title">Desarrollo FrontEnd</h2>
-              <p className="sub--texts">Tecnologías de Desarrollo</p>
-
-              <section className="content--icons">
-                <span className="span--icon">
-                  <box-icon color="#1e4564" size="30px" name='javascript' type='logo' />
-                  <h3 className="title--icon">JavaScript</h3>
-                </span>
-
-                <span className="span--icon">
-                  <box-icon color="#1e4564" size="30px" name='html5' type='logo' />
-                  <h3 className="title--icon">Html5</h3>
-                </span>
-
-                <span className="span--icon">
-                  <box-icon color="#1e4564" size="30px" name='css3' type='logo' />
-                  <h3 className="title--icon">Css</h3>
-                </span>
-
-                <span className="span--icon">
-                  <box-icon color="#1e4564" size="30px" type='logo' name='sass' />
-                  <h3 className="title--icon">Sass</h3>
-                </span>
-
-                <span className="span--icon">
-                  <box-icon color="#1e4564" size="30px" name='figma' type='logo' />
-                  <h3 className="title--icon">Figma</h3>
-                </span>
-
-                <span className="span--icon">
-                  <box-icon color="#1e4564" size="30px" name='react' type='logo' />
-                  <h3 className="title--icon">React</h3>
-                </span>
-
-                <span className="span--icon">
-                  <box-icon color="#1e4564" size="30px" name='vuejs' type='logo' />
-                  <h3 className="title--icon">VueJs</h3>
-                </span>
-                    
-                <span className="span--icon">
-                  <box-icon color="#1e4564" size="30px" name='tailwind-css' type='logo' />
-                  <h3 className="title--icon">Tailwind</h3>
-                </span>
-
-                <span className="span--icon">
-                  <box-icon color="#1e4564" size="30px" name='bootstrap' type='logo' />
-                  <h3 className="title--icon">Bootstrap</h3>
-                </span>
-              </section>
-            </div>           
-
-            <input type="radio" name="radio" id="radio3" />
-            <div className="tab3">
-              <h2 className="sub--title">Desarrollo BackEnd</h2>
-              <p className="sub--texts">Tecnologías de Desarrollo</p>
-
-              <section className="content--icons">
-                 
-                <span className="span--icon">
-                  <box-icon color="#1e4564" size="30px" name='typescript' type='logo' />
-                  <h3 className="title--icon">TypeScript</h3>
-                </span>
-
-                <span className="span--icon">
-                  <box-icon color="#1e4564" size="30px" name='graphql' type='logo' />
-                  <h3 className="title--icon">GraphQL</h3>
-                </span>
-
-                <span className="span--icon">
-                  <box-icon color="#1e4564" size="30px" name='git' type='logo' />
-                  <h3 className="title--icon">Git</h3>
-                </span>
-
-                <span className="span--icon">
-                  <box-icon color="#1e4564" size="30px" name='docker' type='logo' />
-                  <h3 className="title--icon">Docker</h3>
-                </span>
-
-                <span className="span--icon">
-                  <box-icon color="#1e4564" size="30px" name='kubernetes' type='logo' />
-                  <h3 className="title--icon">Kubernetes</h3>
-                </span>
-
-                <span className="span--icon">
-                  <box-icon color="#1e4564" size="30px" name='nodejs' type='logo' />
-                  <h3 className="title--icon">Node Express Js</h3>
-                </span>
-      
-                <span className="span--icon">
-                  <box-icon color="#1e4564" size="30px" name='firebase' type='logo' />
-                  <h3 className="title--icon">Firebase</h3>
-                </span>
-
-                <span className="span--icon">
-                  <box-icon color="#1e4564" size="30px" name='mongodb' type='logo' />
-                  <h3 className="title--icon">MongoDB</h3>
-                </span>
-
-                <span className="span--icon">
-                  <box-icon color="#1e4564" size="30px" name='data' type='solid' />
-                  <h3 className="title--icon">MySQL</h3>
-                </span>
-
-              </section>
-                
-            </div>
-                     
-          </div>    
-
-        </div>
-        
-        <section className="section--wave">
-          <svg preserveAspectRatio="none" className="wave--top" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+          <section className="section--black"></section>
+          <section className="section--black"></section>
+          <svg preserveAspectRatio="none" className="wave--top wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
             <path fill="#0c151d" fill-opacity="1" d="M0,96L120,133.3C240,171,480,245,720,250.7C960,256,1200,192,1320,160L1440,128L1440,0L1320,0C1200,0,960,0,720,0C480,0,240,0,120,0L0,0Z"></path>
           </svg>
 
-          <svg preserveAspectRatio="none" className="wave--botton" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-            <path fill="#0c151d" fill-opacity="1" d="M0,96L120,133.3C240,171,480,245,720,250.7C960,256,1200,192,1320,160L1440,128L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"></path>
-          </svg>
-        </section>
+       
 
         </section>
+
+        
+
+        <section className="section--wave">
+
+          
+          <svg preserveAspectRatio="none" className="wave--botton " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#0c151d" fill-opacity="1" d="M0,96L120,133.3C240,171,480,245,720,250.7C960,256,1200,192,1320,160L1440,128L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"></path>
+          </svg>
+
+          </section>
+
 
         
 

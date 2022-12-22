@@ -80,15 +80,18 @@
     background-repeat: no-repeat;
 }
 
-.wave--botton{
-    padding-bottom: 480px;
+
+.wave--top, .wave--botton{
+    height: 250px;
 }
 
-@media screen and (min-width: 385px) {
-    .wave--botton{
-        padding-bottom: 0;
-    }
+
+.section--black{
+    height: 200px;
 }
+
+
+
   
 
 
@@ -238,21 +241,20 @@
 }
 
 
-@media screen and (min-width: 600px) {
-    .projects{
-        grid-template-columns: 1fr 1fr;
-    }
-}
-  
 
 
 
 /*  Stack develop  */
 
 
+
+
+
+
+
 .container{
     width: 100%;
-    max-width: 700px;
+    max-width: 740px;
     margin: auto;
     margin-top: 60px;
 }
