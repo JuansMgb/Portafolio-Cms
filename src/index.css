@@ -142,7 +142,7 @@
 }
 
 .sub--texts{
-    width: 80%;
+    width: 99%;
     font-size: 1rem;
     margin: 0 auto;
     padding-bottom: 18px;
@@ -153,7 +153,7 @@
 /* projects */
 
 .section--about{
-    width: 66%;
+    width: 86%;
     margin: 0 auto;
 }
 
@@ -275,8 +275,6 @@
 
 
 
-
-
 .container{
     width: 100%;
     max-width: 740px;
@@ -291,12 +289,15 @@
     justify-content: center;
     padding: 12px;
     padding-bottom: 17px;
+    position: relative;
+    bottom: 44px;
+
 }
 
 
 .lbl-menu label{
     display: inline-block;
-    padding: 12px;
+    padding: 16px;
     color: #fff;
     cursor: pointer;
     transition: all 400ms ease;
@@ -305,6 +306,7 @@
 
 .lbl-menu label:hover{
     border-radius: 20px;
+    background-color: #1e4564;
 }
 
 
@@ -348,14 +350,14 @@
 }
 
 
-.title--icon{
-    font-size: 0.8rem;
-    margin: 0;
+.sub--icon{
+    font-size: 0.7rem;
 }
 
 
-.sub--icon{
-    font-size: 0.7rem;
+.title--icon{
+    font-size: 0.8rem;
+    margin: 0;
 }
 
 

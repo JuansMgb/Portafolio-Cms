@@ -140,13 +140,14 @@ const Index = ({ data, location }) => {
 
         
         <section className="content--stack">
-
-          <div className="container">
-            
-            <h2 className="title">Stack Develop</h2>
+        <h2 className="title">Stack Develop</h2>
             <p  className="sub--texts">Ingeniero en desarrollo de software, 
             con mas de dos años en esta gran carrera como independiente, especializado en la capaciadad del uso de tecnologias de desarrollo.
             </p>
+
+          <div className="container">
+            
+            
             <div className="lbl-menu">
               <label for="radio2">Cliente</label>
               <label for="radio1">Stack</label>
