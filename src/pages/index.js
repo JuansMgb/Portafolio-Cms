@@ -338,24 +338,42 @@ const Index = ({ data, location }) => {
 
           <section className="section--black"></section>
           <section className="section--black"></section>
-          <svg preserveAspectRatio="none" className="wave--top wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-            <path fill="#0c151d" fill-opacity="1" d="M0,96L120,133.3C240,171,480,245,720,250.7C960,256,1200,192,1320,160L1440,128L1440,0L1320,0C1200,0,960,0,720,0C480,0,240,0,120,0L0,0Z"></path>
-          </svg>
+          <section className="section--med"></section>
 
-       
 
         </section>
 
-        
-
-        <section className="section--wave">
-
+        <section>
           
-          <svg preserveAspectRatio="none" className="wave--botton " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-            <path fill="#0c151d" fill-opacity="1" d="M0,96L120,133.3C240,171,480,245,720,250.7C960,256,1200,192,1320,160L1440,128L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"></path>
-          </svg>
+
+          <section className="section--form">
+              <h3 className="title">Contactame</h3>
+              <p className="sub--texts">Dejame tu mensaje</p>
+
+            <form className="form" name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
+                <input type="hidden" name="form-name" value="contact"/>
+              <div className="form--content">
+
+                <div className="form--label">
+                  <input className="input" id="email" type="email" name="email" placeholder=" "/>
+                  <label className="label--input" for="email">Correo.</label>
+                </div>
+
+                <div className="form--label">
+                  <textarea  className="input mensaje" id="mensaje" type="text" name="mensaje" placeholder=" " ></textarea>
+                  <label className="label--input">Mensaje.</label>
+                </div>
+
+              </div>
+               <button className="buton" type="submit">Enviar</button>
+
+            </form>
 
           </section>
+
+        
+      
+        </section>
 
 
         

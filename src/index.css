@@ -77,8 +77,15 @@
     position: relative;
     display: block;
     width: 100%;
+
     background-repeat: no-repeat;
 }
+
+
+.wave--content{
+    background-color: #2f77b1;
+}
+
 
 
 .wave--top, .wave--botton{
@@ -87,15 +94,24 @@
 
 
 .section--black{
+    height: 230px;
+}
+
+.section--med{
     height: 200px;
 }
 
 
+@media (min-width: 660px) {
+    .section--med {
+        display: none;
+    }
 
+}
   
 
-
 /* main */
+
 
 .main{
     width: 100%;
@@ -122,13 +138,13 @@
     line-height: 1.2;
     color: #395b77;
     margin: 0;
+    
 }
 
 .sub--texts{
     width: 80%;
     font-size: 1rem;
     margin: 0 auto;
-    padding-top: 12px;
     padding-bottom: 18px;
     color: #b8c0c7;
 }
