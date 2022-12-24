@@ -102,7 +102,7 @@
 }
 
 
-@media (min-width: 660px) {
+@media (min-width: 500px) {
     .section--med {
         display: none;
     }
@@ -166,6 +166,7 @@
 }
 
 
+
 .projects{
     width: 90%;
     padding-top: 38px;
@@ -176,6 +177,14 @@
     gap: 28px;
 }
 
+
+@media (min-width: 500px) {
+    .projects {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+}
 
 .projects--card{
     position: relative;
