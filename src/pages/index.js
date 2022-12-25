@@ -79,7 +79,7 @@ const Index = ({ data, location }) => {
                       <p>Css</p>
                     </div>
 
-                    <a target={"_blank"} rel="noreferrer" href="https://animated-selkie-596502.netlify.app" className="projects--btn button btn--small"><box-icon color="#1e4564" size="30px" type='solid' name='share-alt'></box-icon></a>
+                    <a target={"_blank"} rel="noreferrer" href="juegodemanos-ppo.netlify.app" className="projects--btn button btn--small"><box-icon color="#1e4564" size="30px" type='solid' name='share-alt'></box-icon></a>
                   </div>
                 </article>
               </div>
@@ -140,14 +140,13 @@ const Index = ({ data, location }) => {
 
         
         <section className="content--stack">
-        <h2 className="title">Stack Develop</h2>
+           <h2 className="title">Stack Develop</h2>
             <p  className="sub--texts">Ingeniero en desarrollo de software, 
             con mas de dos años en esta gran carrera como independiente, especializado en la capaciadad del uso de tecnologias de desarrollo.
             </p>
 
           <div className="container">
-            
-            
+    
             <div className="lbl-menu">
               <label for="radio2">Cliente</label>
               <label for="radio1">Stack</label>
