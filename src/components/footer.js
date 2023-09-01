@@ -18,6 +18,8 @@ const Footer = () => {
         <Link to="blog">Blog</Link>
       </nav>
 
+      <h3 className="info--sucial">Mis Redes de Contact</h3>
+
       <section className="icons-footer">
         <a href="https://www.linkedin.com/in/juan-sebastian-63498a1a5/" target={"_blank"}><FontAwesomeIcon className="icon" icon={faLinkedin}/></a>
         <a href="https://github.com/JuansMgb" target={"_blank"}><FontAwesomeIcon className="icon" icon={faGithub}/></a>

@@ -3,7 +3,7 @@
 
 .hero{
     text-align: center;
-    padding-top: 50px;
+    padding-top: 30px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -17,14 +17,13 @@
 
 
 .img--about{
-    width: 180px;
-    height: 180px;
+    width: 260px;
+    height: 260px;
     padding: 8px;
     align-items: center;
     border: 3.6px solid #42a4f4;
-    border-radius: 50%;
+    border-radius: 80%;
 }
-
 
 .about--title{
     margin: 0;
@@ -154,7 +153,7 @@
 }
 
 .sub--texts{
-    width: 99%;
+    width: 90%;
     font-size: 1rem;
     margin: 0 auto;
     padding-bottom: 18px;
