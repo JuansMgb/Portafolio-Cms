@@ -23,7 +23,6 @@ const Footer = () => {
       <section className="icons-footer">
         <a href="https://www.linkedin.com/in/juan-sebastian-63498a1a5/" target={"_blank"}><FontAwesomeIcon className="icon" icon={faLinkedin}/></a>
         <a href="https://github.com/JuansMgb" target={"_blank"}><FontAwesomeIcon className="icon" icon={faGithub}/></a>
-        <a href="https://twitter.com/JuansMgb" target={"_blank"}><FontAwesomeIcon className="icon" icon={faInstagran}/></a>
         <a href="https://wa.me/573103513437?text=Hola :D, Dejame un mensaje" target={"_blank"}><FontAwesomeIcon className="icon" icon={faWhatsapp}/></a>
       </section>
 
