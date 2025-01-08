@@ -8,6 +8,7 @@ import project1 from "../images/project1-min.jpg"
 import project2 from "../images/project2-min.jpg"
 import project3 from "../images/project3-min.jpg"
 import project4 from "../images/project4-min.jpg"
+import project4 from "../photo_2022-05-07_20-59-57-min.jpg"
 
 
 import Layout from "../components/layout"
