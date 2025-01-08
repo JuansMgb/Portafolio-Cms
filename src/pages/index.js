@@ -45,7 +45,6 @@ const Index = ({ data, location }) => {
           <nav className="nav--hero">
             <Link to="/" >Home</Link>
             <Link to="blog">Blog</Link>
-            <Link to="Contac">Contac</Link>
           </nav>
 
         </section>
