@@ -38,8 +38,8 @@ const Index = ({ data, location }) => {
           </figure>
 
           <h2 className="about--title">Juan Sebastian</h2>
-          <p className="about--texts">¡Apasiando Del Saber!</p>
           <p className="about--subtitle">Full Stack Developer</p>
+          <p className="about--texts">¡Apasiando Del Saber!</p>
           <p className="about--location">Colombia / Medellín </p>
           
           <nav className="nav--hero">
