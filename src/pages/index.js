@@ -125,7 +125,7 @@ const Index = ({ data, location }) => {
                   <img  alt="project4" src={project4} className="img--project" />
                               
                   <div className="projects--modal">
-                    <h3 className="projects--title">Regristro de ip</h3>
+                    <h3 className="projects--title">Regristro de Ip</h3>
                     <div className="projects--stack">
                       <p>JavaScript</p>
                       <p>Html</p>
