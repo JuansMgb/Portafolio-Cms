@@ -34,7 +34,7 @@ const Index = ({ data, location }) => {
       <header className="hero">
         <section className="hero--content">
           <figure className="img">
-            <img className="img--about" src={foto} alt="" />
+            <img className="img--about" src={foto} alt="photo_2022-05-07_20-59-57-min.jpg" />
           </figure>
 
           <h2 className="about--title">Juan Sebastian</h2>
