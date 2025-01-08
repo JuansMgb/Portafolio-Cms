@@ -65,7 +65,7 @@ const Index = ({ data, location }) => {
         <section className="section--project">      
           <section className="section--about">
             <h2 className="title">Proyectos</h2>
-            <p className="sub--texts">listado de Proyectos personales</p>
+            <p className="sub--texts">listado de Proyectos Personales</p>
             <p className="sub--texts">Mis Proyectos</p>
           </section>
             
