@@ -338,7 +338,7 @@
     animation: wave 5s infinite ease-in-out;
     stroke: #1e4564; /* Cambia esto a tu color deseado */
     stroke-width: 20px; /* Ajusta el grosor según sea necesario */
-    stroke-dasharray: 0 100; /* Quita los bordes izquierdo, derecho y superior */
+    
 }
 
 /* form  */ 
