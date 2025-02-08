@@ -64,9 +64,8 @@ const Index = ({ data, location }) => {
 
         <section className="section--about">
           <h2 className="title">Sobre Mi</h2>
-          <p className="sub--texts"> 
-          Desarrollador Full Stack, con Experiencia en el Desarrollo de Aplicaciones Web, con un Enfoque en la Creación de Proyectos Personales. 🚀
-          Hola, Soy Juan Sebastian, un Desarrollador Full Stack, con Experiencia en el Desarrollo de Aplicaciones Web, con un Enfoque en la Creación de Proyectos Personales. 
+          <p className="sub--texts">
+          Hola, Soy Juan Sebastian, un Desarrollador Full Stack, con Experiencia en el Desarrollo de Aplicaciones Web, con un Enfoque en la Creación de Proyectos Personales 🚀. 
           Mi Objetivo es Aprender y Mejorar Mis Habilidades en el Desarrollo de Software, para Poder Desempeñarme en el Mundo Laboral. 🌎  
           </p>
         </section>   
