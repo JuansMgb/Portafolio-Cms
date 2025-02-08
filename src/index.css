@@ -349,70 +349,61 @@
 
 /* form  */ 
 
-.section--form{
-    width: 90%;
-    max-width: 300px;
-    margin: 0 auto;
-    text-align: center;
-    padding-top: 32px;
-}
-   
-   
-.form{
+.form {
     display: flex;
     flex-direction: column;
-    padding-bottom: 84px;
-}
-   
-   
-.form--content{
-    display: grid;
-    margin-top: 26px;
-    gap:  28px;
-    width: 288px;
-}
-   
-   
-.form--label{
-    position: relative;
-}
-   
-   
-.input{
+    align-items: center;
+    margin: 20px 0;
+  }
+  
+  .form--content {
+    display: flex;
+    flex-direction: column;
     width: 100%;
-    color: #626060;
-    font-size: 1rem;
-    padding: .6em .3em;
-    border: none;
-    outline: none;
-    border-bottom: 1px, solid, #42a4f4;
-}
-   
-.mensaje{
-    min-height: 100px;
-    max-height: 200px;
-    max-width: 288px;
-}
-   
-   
-.input:focus + .label--input, .input:not(:placeholder-shown) + .label--input {
-    transform: translateY(-22px) scale(.7);
-}
-   
-   
-.label--input{
-    cursor: pointer;
+    max-width: 600px;
+  }
+  
+  .form--label {
+    position: relative;
+    margin-bottom: 20px;
+  }
+  
+  .input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .label--input {
     position: absolute;
-    top: 0;
-    left: 5px;
-    transform: translateY(10px);
-    transition: transform .5s, color .5s;
-}
-   
-   
-.buton{
-    width: 26%;
-    margin: 22px auto;
-    padding: 8px;
-    color: #706c6c;
-}
+    top: 10px;
+    left: 10px;
+    font-size: 16px;
+    color: #999;
+    pointer-events: none;
+    transition: all 0.2s ease;
+  }
+  
+  .input:focus + .label--input,
+  .input:not(:placeholder-shown) + .label--input {
+    top: -20px;
+    left: 10px;
+    font-size: 12px;
+    color: #333;
+  }
+  
+  .button {
+    padding: 10px 20px;
+    background-color: #1e4564;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .button:hover {
+    background-color: #16334a;
+  }

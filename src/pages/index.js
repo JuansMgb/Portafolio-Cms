@@ -369,24 +369,25 @@ const Index = ({ data, location }) => {
               <h3 className="title">Contactame</h3>
               <p className="sub--texts">Dejame tu mensaje</p>
 
-            <form className="form" name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
-                <input type="hidden" name="form-name" value="contact"/>
+              <form className="form" name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
+                <input type="hidden" name="form-name" value="contact" />
+                <p hidden>
+                  <label>
+                    Don’t fill this out: <input name="bot-field" />
+                  </label>
+                </p>
                 <div className="form--content">
-
-                <div className="form--label">
-                  <input className="input" id="email" type="email" name="email" placeholder=" "/>
-                  <label className="label--input" for="email">Correo.</label>
-                </div>
-
-                <div className="form--label">
-                  <textarea  className="input mensaje" id="mensaje" type="text" name="mensaje" placeholder=" " ></textarea>
-                  <label className="label--input">Mensaje.</label>
-                </div>
-
+                  <div className="form--label">
+                    <input className="input" id="email" type="email" name="email" placeholder=" " required />
+                    <label className="label--input" htmlFor="email">Correo.</label>
+                  </div>
+                  <div className="form--label">
+                    <textarea className="input mensaje" id="mensaje" name="mensaje" placeholder=" " required></textarea>
+                    <label className="label--input" htmlFor="mensaje">Mensaje.</label>
+                  </div>
                 </div>
                 <button className="buton" type="submit">Enviar</button>
- 
-            </form>
+              </form>
 
           </section>
       
