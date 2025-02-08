@@ -18,8 +18,12 @@ import {FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faLinkedin, faGithub, faTwitter, faWhatsapp, } from "@fortawesome/free-brands-svg-icons"
 
 
+
+
+
 const Index = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata?.title || `Title`
+
 
 
   return (
@@ -39,7 +43,7 @@ const Index = ({ data, location }) => {
           <h2 className="about--title">Juan Sebastian</h2>
           <p className="about--subtitle">Full Stack Developer</p>
           <p className="about--texts">¡Apasiando Del Saber!</p>
-          <p className="about--location">Colombia / Medellín</p>
+          <p className="about--location">Colombia / Medellín </p>
           
           <nav className="nav--hero">
             <Link to="/" >Home</Link>
@@ -65,8 +69,7 @@ const Index = ({ data, location }) => {
         <section className="section--about">
           <h2 className="title">Sobre Mi</h2>
           <p className="sub--texts">
-          Hola, Soy Juan Sebastian, un Desarrollador Full Stack, con Experiencia en el Desarrollo de Aplicaciones Web, con un Enfoque en la Creación de Proyectos Personales 🚀. 
-          Mi Objetivo es Aprender y Mejorar Mis Habilidades en el Desarrollo de Software, para Poder Desempeñarme en el Mundo Laboral. 🌎  
+          Hola, Soy Juan Sebastian, un Desarrollador Full Stack, con Experiencia en el Desarrollo de Aplicaciones Web, con un Enfoque en la Creación de Proyectos Personales 🚀. Mi Objetivo es Aprender y Mejorar Mis Habilidades en el Desarrollo de Software, para Poder Desempeñarme en el Mundo Laboral. 🌎
           </p>
         </section>   
 
@@ -364,27 +367,30 @@ const Index = ({ data, location }) => {
           <path d="M0 601L21.5 601C43 601 86 601 128.8 601C171.7 601 214.3 601 257.2 601C300 601 343 601 385.8 601C428.7 601 471.3 601 514.2 601C557 601 600 601 642.8 601C685.7 601 728.3 601 771.2 601C814 601 857 601 878.5 601L900 601L900 581L878.5 577C857 573 814 565 771.2 564C728.3 563 685.7 569 642.8 571C600 573 557 571 514.2 571C471.3 571 428.7 573 385.8 571C343 569 300 563 257.2 563C214.3 563 171.7 569 128.8 573C86 577 43 579 21.5 580L0 581Z" fill="#0c151d"></path>
         </svg>
 
-        <section className="section--med">
+        <section>
+          
+        <section className="section--med"></section>
+
           <section className="section--form">
-            <h3 className="title">Contactame</h3>
-            <p className="sub--texts">Dejame tu mensaje</p>
+              <h3 className="title">Contactame</h3>
+              <p className="sub--texts">Dejame tu mensaje</p>
 
             <form className="form" name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
-              <input type="hidden" name="form-name" value="contact"/>
-              <div className="form--content">
+                <input type="hidden" name="form-name" value="contact"/>
+                <div className="form--content">
 
-              <div className="form--label">
-                <input className="input" id="email" type="email" name="email" placeholder=" "/>
-                <label className="label--input" for="email">Correo.</label>
-              </div>
+                <div className="form--label">
+                  <input className="input" id="email" type="email" name="email" placeholder=" "/>
+                  <label className="label--input" for="email">Correo.</label>
+                </div>
 
-              <div className="form--label">
-                <textarea  className="input mensaje" id="mensaje" type="text" name="mensaje" placeholder=" " ></textarea>
-                <label className="label--input">Mensaje.</label>
-              </div>
+                <div className="form--label">
+                  <textarea  className="input mensaje" id="mensaje" type="text" name="mensaje" placeholder=" " ></textarea>
+                  <label className="label--input">Mensaje.</label>
+                </div>
 
-              </div>
-              <button className="buton" type="submit">Enviar</button>
+                </div>
+                <button className="buton" type="submit">Enviar</button>
  
             </form>
 
