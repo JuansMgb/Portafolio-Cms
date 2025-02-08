@@ -338,10 +338,10 @@
     animation: wave 5s infinite ease-in-out;
     stroke: #000; /* Cambie esto a su color deseado */
     stroke-width: 20px; /* Ajuste el grosor según sea necesario */
+    stroke-dasharray: 0 0 0 0; /* Quita los bordes izquierdo, derecho y superior */
 }
 
 /* form  */ 
-
 
 .section--form{
     width: 90%;
