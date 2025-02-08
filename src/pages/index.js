@@ -25,7 +25,6 @@ const Index = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata?.title || `Title`
 
 
-
   return (
     <Layout location={location} title={siteTitle}>
       <Seo title="Home" />
