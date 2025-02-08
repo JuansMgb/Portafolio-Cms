@@ -43,7 +43,7 @@ const Index = ({ data, location }) => {
           <h2 className="about--title">Juan Sebastian</h2>
           <p className="about--subtitle">Full Stack Developer</p>
           <p className="about--texts">¡Apasiando Del Saber!</p>
-          <p className="about--location">Colombia / Medellín </p>
+          <p className="about--location">Colombia / Medellín</p>
           
           <nav className="nav--hero">
             <Link to="/" >Home</Link>
