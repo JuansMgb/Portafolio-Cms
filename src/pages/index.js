@@ -18,9 +18,6 @@ import {FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faLinkedin, faGithub, faTwitter, faWhatsapp, } from "@fortawesome/free-brands-svg-icons"
 
 
-
-
-
 const Index = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata?.title || `Title`
 
@@ -67,9 +64,11 @@ const Index = ({ data, location }) => {
 
         <section className="section--about">
           <h2 className="title">Sobre Mi</h2>
-          <p className="sub--texts">Desarrollador Full Stack, con Experiencia en el Desarrollo de Aplicaciones Web, con un Enfoque en la Creación de Proyectos Personales. 🚀</p>
-          <p className="sub--texts">Hola, Soy Juan Sebastian, un Desarrollador Full Stack, con Experiencia en el Desarrollo de Aplicaciones Web, con un Enfoque en la Creación de Proyectos Personales. </p>
-          <p className="sub--texts">Mi Objetivo es Aprender y Mejorar Mis Habilidades en el Desarrollo de Software, para Poder Desempeñarme en el Mundo Laboral. 🌎</p>   
+          <p className="sub--texts"> 
+          Desarrollador Full Stack, con Experiencia en el Desarrollo de Aplicaciones Web, con un Enfoque en la Creación de Proyectos Personales. 🚀
+          Hola, Soy Juan Sebastian, un Desarrollador Full Stack, con Experiencia en el Desarrollo de Aplicaciones Web, con un Enfoque en la Creación de Proyectos Personales. 
+          Mi Objetivo es Aprender y Mejorar Mis Habilidades en el Desarrollo de Software, para Poder Desempeñarme en el Mundo Laboral. 🌎  
+          </p>
         </section>   
 
         <section className="section--project">      
