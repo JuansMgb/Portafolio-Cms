@@ -1,6 +1,5 @@
 
 
-
 .hero{
     text-align: center;
     padding-top: 30px;
@@ -10,11 +9,9 @@
     background: linear-gradient(to top, #1e4564,  #1d66a1, #42a4f4);
 }
 
-
 .hero--content{
     padding-bottom: 23px;
 }
-
 
 .img--about{
     width: 260px;
@@ -32,7 +29,6 @@
     
 }
 
-
 .about--subtitle{
     margin: 0;
     margin-bottom: 14px;
@@ -42,7 +38,6 @@
     
 }
 
-
 .icons-content{
     display:  flex;
     justify-content: center;
@@ -51,12 +46,10 @@
     margin-bottom: 28px;
 }
 
-
 .icon{
     color: #b8c0c7;
     cursor: pointer;
 }
-
 
 .nav--hero{
     display: flex;
@@ -65,32 +58,25 @@
     justify-content: center;
 }
 
-
 .nav--hero a {
     text-decoration: none;
     color: #b8c0c7;
 }
 
-
 .wave{
     position: relative;
     display: block;
     width: 100%;
-
     background-repeat: no-repeat;
 }
-
 
 .wave--content{
     background-color: #2f77b1;
 }
 
-
-
 .wave--top, .wave--botton{
     height: 250px;
 }
-
 
 .section--black{
     height: 230px;
@@ -107,11 +93,9 @@
     
 }
 
-
 .section--med{
     height: 400px;
 }
-
 
 @media (min-width: 500px) {
     .section--med {
@@ -120,15 +104,12 @@
 
 }
   
-
 /* main */
-
 
 .main{
     width: 100%;
     text-align: center;
 }
-
 
 .about{
     min-width: 300px;
@@ -136,7 +117,6 @@
     margin: 0 auto;
     text-align: center;
 }
-
 
 .title{
     margin: 0;
@@ -160,7 +140,6 @@
     color: #b8c0c7;
 }
 
-
 /* projects */
 
 .section--about{
@@ -168,15 +147,12 @@
     margin: 0 auto;
 }
 
-
 .section--project{
     padding-top: 76px;
     min-width: 300px;
     max-width: 700px;
     margin: 0 auto;
 }
-
-
 
 .projects{
     width: 90%;
@@ -187,7 +163,6 @@
     grid-template-rows: 1fr;
     gap: 28px;
 }
-
 
 @media (min-width: 500px) {
     .projects {
@@ -203,12 +178,10 @@
     overflow: hidden;
 }
 
-
 .projects--card img{
     width: 100%;
     height: 100%;
 }
-
 
 .projects--modal{
     position: absolute;
@@ -222,19 +195,16 @@
     transition: .3s;
 }
 
-
 .projects--subtitle,
 .projects--title{
     color: #fff;
 }
-
 
 .projects--title{
     margin-top: .6rem;
     margin-bottom: .5rem;
     font-size: 1.4rem;
 }
-
 
 .projects--stack p{
     display: inline;
@@ -246,11 +216,9 @@
     padding: .5rem;
 }
 
-
 .projects--card:hover .projects--modal{
     bottom: 0;
 }
-
 
 .button{
     display: inline-flex;
@@ -262,29 +230,18 @@
     padding: 1.15rem;
     border-radius: .5rem;
     box-shadow: 0 8px 24px;
-
 }
-
 
 .projects--btn i {
     font-size: 1.2rem;
 }
-
 
 .btn--small{
     padding: .75rem;
     box-shadow: none;
 }
 
-
-
-
-
 /*  Stack develop  */
-
-
-
-
 
 .container{
     width: 100%;
@@ -292,7 +249,6 @@
     margin: auto;
     margin-top: 60px;
 }
-
 
 .lbl-menu{
     display: flex;
@@ -305,7 +261,6 @@
 
 }
 
-
 .lbl-menu label{
     display: inline-block;
     padding: 16px;
@@ -314,17 +269,14 @@
     transition: all 400ms ease;
 }
 
-
 .lbl-menu label:hover{
     border-radius: 20px;
     background-color: #1e4564;
 }
 
-
 .content {
     position: relative;
 }
-
 
 .content div{
     position: absolute;
@@ -340,11 +292,9 @@
     justify-content: center;
 }
 
-
 #radio1,#radio2,#radio3{
     display: none;
 }
-
 
 #radio1:checked ~ .tab1,
 #radio2:checked ~ .tab2,
@@ -353,7 +303,6 @@
     visibility: visible;
     transform: scale(1);
 } 
-
 
 .span--icon{
     display: inline-block;
@@ -371,6 +320,23 @@
     margin: 0;
 }
 
+/* wave */ 
+
+@keyframes wave {
+    0% {
+      d: path("M0 73L21.5 69C43 65 86 57 128.8 54C171.7 51 214.3 53 257.2 57C300 61 343 67 385.8 63C428.7 59 471.3 45 514.2 43C557 41 600 51 642.8 55C685.7 59 728.3 57 771.2 59C814 61 857 67 878.5 70L900 73L900 0L878.5 0C857 0 814 0 771.2 0C728.3 0 685.7 0 642.8 0C600 0 557 0 514.2 0C471.3 0 428.7 0 385.8 0C343 0 300 0 257.2 0C214.3 0 171.7 0 128.8 0C86 0 43 0 21.5 0L0 0Z");
+    }
+    50% {
+      d: path("M0 83L21.5 79C43 75 86 67 128.8 64C171.7 61 214.3 63 257.2 67C300 71 343 77 385.8 73C428.7 69 471.3 55 514.2 53C557 51 600 61 642.8 65C685.7 69 728.3 67 771.2 69C814 71 857 77 878.5 80L900 83L900 0L878.5 0C857 0 814 0 771.2 0C728.3 0 685.7 0 642.8 0C600 0 557 0 514.2 0C471.3 0 428.7 0 385.8 0C343 0 300 0 257.2 0C214.3 0 171.7 0 128.8 0C86 0 43 0 21.5 0L0 0Z");
+    }
+    100% {
+      d: path("M0 73L21.5 69C43 65 86 57 128.8 54C171.7 51 214.3 53 257.2 57C300 61 343 67 385.8 63C428.7 59 471.3 45 514.2 43C557 41 600 51 642.8 55C685.7 59 728.3 57 771.2 59C814 61 857 67 878.5 70L900 73L900 0L878.5 0C857 0 814 0 771.2 0C728.3 0 685.7 0 642.8 0C600 0 557 0 514.2 0C471.3 0 428.7 0 385.8 0C343 0 300 0 257.2 0C214.3 0 171.7 0 128.8 0C86 0 43 0 21.5 0L0 0Z");
+    }
+  }
+  
+  .wave-animation path {
+    animation: wave 5s infinite ease-in-out;
+  }
 
 /* form  */ 
 
