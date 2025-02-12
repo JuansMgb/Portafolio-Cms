@@ -61,11 +61,11 @@
     color: #b8c0c7;
 }
 
-.wave{
+.wave {
     position: relative;
     display: block;
     width: 100%;
-    background: #1d66a1;
+    background: linear-gradient(to top, #1e4564, #1d66a1, #42a4f4);
     background-repeat: no-repeat;
 }
 
