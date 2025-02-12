@@ -71,7 +71,6 @@
     color: #b8c0c7;
 }
 
-
 .wave{
     position: relative;
     display: block;
@@ -80,12 +79,9 @@
     background-repeat: no-repeat;
 }
 
-
 .wave--content{
     background-color: #2f77b1;
 }
-
-
 
 .wave--top, .wave--botton{
     height: 250px;
@@ -107,11 +103,9 @@
     
 }
 
-
 .section--med{
     height: 400px;
 }
-
 
 @media (min-width: 500px) {
     .section--med {
@@ -120,9 +114,7 @@
 
 }
   
-
 /* main */
-
 
 .main{
     width: 100%;
@@ -136,7 +128,6 @@
     margin: 0 auto;
     text-align: center;
 }
-
 
 .title{
     margin: 0;
@@ -160,7 +151,6 @@
     color: #b8c0c7;
 }
 
-
 /* projects */
 
 .section--about{
@@ -168,15 +158,12 @@
     margin: 0 auto;
 }
 
-
 .section--project{
     padding-top: 76px;
     min-width: 300px;
     max-width: 700px;
     margin: 0 auto;
 }
-
-
 
 .projects{
     width: 90%;
@@ -270,21 +257,12 @@
     font-size: 1.2rem;
 }
 
-
 .btn--small{
     padding: .75rem;
     box-shadow: none;
 }
 
-
-
-
-
 /*  Stack develop  */
-
-
-
-
 
 .container{
     width: 100%;
@@ -292,7 +270,6 @@
     margin: auto;
     margin-top: 60px;
 }
-
 
 .lbl-menu{
     display: flex;
@@ -305,7 +282,6 @@
 
 }
 
-
 .lbl-menu label{
     display: inline-block;
     padding: 16px;
@@ -314,17 +290,14 @@
     transition: all 400ms ease;
 }
 
-
 .lbl-menu label:hover{
     border-radius: 20px;
     background-color: #1e4564;
 }
 
-
 .content {
     position: relative;
 }
-
 
 .content div{
     position: absolute;
@@ -340,11 +313,9 @@
     justify-content: center;
 }
 
-
 #radio1,#radio2,#radio3{
     display: none;
 }
-
 
 #radio1:checked ~ .tab1,
 #radio2:checked ~ .tab2,
@@ -354,17 +325,14 @@
     transform: scale(1);
 } 
 
-
 .span--icon{
     display: inline-block;
     padding: 22px;
 }
 
-
 .sub--icon{
     font-size: 0.7rem;
 }
-
 
 .title--icon{
     font-size: 0.8rem;
@@ -384,12 +352,17 @@
       d: path("M0,96L120,112C240,128,480,160,720,160C960,160,1200,128,1320,112L1440,96L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z");
     }
 }
+
+.wave-animation {
+    background-color: #2f77b1; /* Color de fondo */
+}
   
 .wave-animation path {
     animation: wave 5s infinite ease-in-out;
+    stroke-width: 12px; /* Ajusta el grosor según tus necesidades */
 }
-/* form  */ 
 
+/* form  */ 
 
 .section--form{
     width: 90%;
@@ -405,8 +378,7 @@
     flex-direction: column;
     padding-bottom: 84px;
 }
-   
-   
+    
 .form--content{
     display: grid;
     margin-top: 26px;
@@ -414,11 +386,9 @@
     width: 288px;
 }
    
-   
 .form--label{
     position: relative;
 }
-   
    
 .input{
     width: 100%;
@@ -436,11 +406,9 @@
     max-width: 288px;
 }
    
-   
 .input:focus + .label--input, .input:not(:placeholder-shown) + .label--input {
     transform: translateY(-22px) scale(.7);
 }
-   
    
 .label--input{
     cursor: pointer;
@@ -450,7 +418,6 @@
     transform: translateY(10px);
     transition: transform .5s, color .5s;
 }
-   
    
 .buton{
     width: 26%;
