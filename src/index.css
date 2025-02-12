@@ -76,7 +76,6 @@
     position: relative;
     display: block;
     width: 100%;
-    background-color: #2f77b1;
     background-repeat: no-repeat;
 }
 
@@ -383,11 +382,13 @@
     padding-top: 32px;
 }
    
+   
 .form{
     display: flex;
     flex-direction: column;
     padding-bottom: 84px;
 }
+   
    
 .form--content{
     display: grid;
@@ -396,9 +397,11 @@
     width: 288px;
 }
    
+   
 .form--label{
     position: relative;
 }
+   
    
 .input{
     width: 100%;
@@ -416,9 +419,11 @@
     max-width: 288px;
 }
    
+   
 .input:focus + .label--input, .input:not(:placeholder-shown) + .label--input {
     transform: translateY(-22px) scale(.7);
 }
+   
    
 .label--input{
     cursor: pointer;
@@ -428,6 +433,7 @@
     transform: translateY(10px);
     transition: transform .5s, color .5s;
 }
+   
    
 .buton{
     width: 26%;
