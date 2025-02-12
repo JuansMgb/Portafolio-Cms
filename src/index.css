@@ -363,6 +363,7 @@
 
 .wave-animation path {
     animation: wave 5s infinite ease-in-out;
+    stroke-width: 10; /* Aumenta el grosor de la línea según sea necesario */
 }
 
 /* form  */ 
