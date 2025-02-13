@@ -9,6 +9,9 @@ import project2 from "../images/project2-min.jpg"
 import project3 from "../images/project3-min.jpg"
 import project4 from "../images/project4-min.jpg"
 
+import {FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faLinkedin, faGithub, faWhatsapp } from "@fortawesome/free-brands-svg-icons"
+
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
@@ -18,10 +21,9 @@ const Index = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata?.title || `Title`
 
 
-
   return (
     <Layout location={location} title={siteTitle}>
-      <Seo title="Home" />
+      <Seo title="Home"/>
       <Helmet>
       <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
       <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
