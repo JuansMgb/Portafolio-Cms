@@ -14,13 +14,6 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 
 
-import {FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faLinkedin, faGithub, faTwitter, faWhatsapp, } from "@fortawesome/free-brands-svg-icons"
-
-
-
-
-
 const Index = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata?.title || `Title`
 
