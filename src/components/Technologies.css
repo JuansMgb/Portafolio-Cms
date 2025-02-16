@@ -7,14 +7,11 @@
     margin-top: 100px;
 }
 
-
 .lbl-menu{
-
     display: flex;
     gap: 20px;
     justify-content: center;
 }
-
 
 .lbl-menu label{
     display: inline-block;
@@ -24,17 +21,14 @@
     transition: all 400ms ease;
 }
 
-
 .lbl-menu label:hover{
     background: #28435d;
     border-radius: 20px;
 }
 
-
 .content{
     position: relative;
 }
-
 
 .content div{
     position: absolute;
@@ -48,12 +42,10 @@
     padding-bottom: 40px;
 }
 
-
 #radio1,#radio2,#radio3,#radio4{
     display: none;
 
 }
-
 
 #radio1:checked ~ .tab1,
 #radio2:checked ~ .tab2,

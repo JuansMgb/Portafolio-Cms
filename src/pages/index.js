@@ -1,21 +1,24 @@
+
+// Importamos los estilos
 import * as React from "react"
 import { graphql, Link } from "gatsby"
 import { Helmet } from "react-helmet"
 import "../index.css"
 
+// Importamos las imagenes
 import foto from "../images/photo_2022-05-07_20-59-57-min.jpg"
 import project1 from "../images/project1-min.jpg"
 import project2 from "../images/project2-min.jpg"
 import project3 from "../images/project3-min.jpg"
 import project4 from "../images/project4-min.jpg"
 
+// Importamos los iconos de fontawesome
 import {FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faLinkedin, faGithub, faWhatsapp } from "@fortawesome/free-brands-svg-icons"
 
-
+// Importamos los componentes
 import Layout from "../components/layout"
 import Seo from "../components/seo"
-
 
 const Index = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata?.title || `Title`
@@ -147,10 +150,7 @@ const Index = ({ data, location }) => {
 
         </section>
 
-        
         <section className="content--stack">
-          
-
           <section className="section--about">
             <h2 className="title">Stack Develop</h2>
             <p className="sub--texts">Tecnologías de Desarrollo</p>
@@ -158,7 +158,6 @@ const Index = ({ data, location }) => {
           </section> 
 
           <div className="container">
-    
             <div className="lbl-menu">
               <label for="radio2">Cliente</label>
               <label for="radio1">Stack</label>
@@ -231,7 +230,6 @@ const Index = ({ data, location }) => {
                     <box-icon color="#1e4564" size="30px" name='data' type='solid' />
                     <h3 className="title--icon">MySQL</h3>
                   </span>
-
                 </section>
               </div>
 
@@ -341,29 +339,24 @@ const Index = ({ data, location }) => {
                   </span>
 
                 </section>
-                  
+                
               </div>
-                      
             </div>    
-
           </div>
 
         </section>
 
         <svg preserveAspectRatio="none" className="wave--decoreitor wave-animation" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
           <path fill="#0c151d" fillOpacity="1" stroke="#0c151d" stroke-width="10" d="M0,96L120,112C240,128,480,160,720,160C960,160,1200,128,1320,112L1440,96L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"></path>
-        </svg>
+        </svg> 
 
-        
-        <section className="section--med"></section>
-
-          <section className="section--form">
-              <h3 className="title">Contactame</h3>
-              <p className="sub--texts">Dejame tu mensaje</p>
+        <section className="section--form">
+            <h3 className="title">Contactame</h3>
+            <p className="sub--texts">Dejame tu mensaje</p>
 
             <form className="form" name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
-                <input type="hidden" name="form-name" value="contact"/>
-                <div className="form--content">
+              <input type="hidden" name="form-name" value="contact"/>
+              <div className="form--content">
 
                 <div className="form--label">
                   <input className="input" id="email" type="email" name="email" placeholder=" "/>
@@ -375,22 +368,12 @@ const Index = ({ data, location }) => {
                   <label className="label--input">Mensaje.</label>
                 </div>
 
-                </div>
-                <button className="buton" type="submit">Enviar</button>
- 
+              </div>
+              <button className="buton" type="submit">Enviar</button>
             </form>
-
-          </section>
-      
-        
-
-        
+        </section>
 
       </main>
-
-     
-
-      
 
     </Layout>
   )
