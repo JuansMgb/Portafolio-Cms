@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Segundo Blog
-date: 2022-06-19T06:24:12.844Z
+date: 2025-02-15
 thumbnail: /Miapp/src/images/pexels-miguel-á-padriñán-1591060.jpg
 ---
 
