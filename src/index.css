@@ -428,19 +428,25 @@
 
 /* Destoc  */
 
-@media (min-width: 500px) {
-    .section--form {
-        width: 100%;
-        max-width: 740px;
-        margin: 0 auto;
-        text-align: center;
-        padding-top: 32px;
+@media (max-width: 500px) {
+    .content--icons {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
     }
 
-    .form {
-        display: flex;
-        flex-direction: column;
-        padding-bottom: 84px;
+    .span--icon {
+        flex: 1 1 45%; /* Ajusta el tamaño de los iconos para que se adapten mejor en pantallas pequeñas */
+        max-width: 45%;
+        text-align: center;
+    }
+
+    .title--icon {
+        font-size: 0.7rem;
+    }
+
+    .section--form {
+        margin-top: 20px; /* Agrega separación en la sección del formulario */
     }
 }
-
