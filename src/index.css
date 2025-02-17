@@ -429,8 +429,18 @@
 /* Destoc  */
 
 @media (min-width: 500px) {
-    .content--stack {
-        display: none;
-        padding-bottom: 30px;
+    .section--form {
+        width: 100%;
+        max-width: 740px;
+        margin: 0 auto;
+        text-align: center;
+        padding-top: 32px;
+    }
+
+    .form {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 84px;
     }
 }
+
