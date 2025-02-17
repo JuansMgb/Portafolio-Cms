@@ -14,7 +14,7 @@ import project4 from "../images/project4-min.jpg"
 
 // Importamos los iconos de fontawesome
 import {FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faLinkedin, faGithub, faWhatsapp, finstagram } from "@fortawesome/free-brands-svg-icons"
+import { faLinkedin, faGithub, faWhatsapp, faInstagram } from "@fortawesome/free-brands-svg-icons"
 
 // Importamos los componentes
 import Layout from "../components/layout"
@@ -22,7 +22,6 @@ import Seo from "../components/seo"
 
 const Index = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata?.title || `Title`
-
 
   return (
     <Layout location={location} title={siteTitle}>
@@ -49,7 +48,7 @@ const Index = ({ data, location }) => {
           </nav>
 
           <section className="icons-footer">
-            <a href="https://www.instagram.com/konchiser/" target={"_blank"}><FontAwesomeIcon className="icon" icon={finstagram}/></a>
+            <a href="https://www.instagram.com/konchiser/" target={"_blank"}><FontAwesomeIcon className="icon" icon={faInstagram}/></a>
             <a href="https://www.linkedin.com/in/juans-crs-b306bb345/" target={"_blank"}><FontAwesomeIcon className="icon" icon={faLinkedin}/></a>
             <a href="https://github.com/JuansMgb" target={"_blank"}><FontAwesomeIcon className="icon" icon={faGithub}/></a>
             <a href="https://wa.me/573116309784?text=Hola :D, Dejame un mensaje" target={"_blank"}><FontAwesomeIcon className="icon" icon={faWhatsapp}/></a>

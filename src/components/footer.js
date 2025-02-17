@@ -5,7 +5,7 @@ import { Link } from "gatsby"
 import "../components/footer.css"
 
 import {FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faLinkedin, faGithub, faTwitter, faWhatsapp, } from "@fortawesome/free-brands-svg-icons"
+import { faLinkedin, faGithub, faTwitter, faWhatsapp, faInstagram } from "@fortawesome/free-brands-svg-icons"
 
 
 const Footer = () => {
@@ -21,6 +21,7 @@ const Footer = () => {
       <h3 className="info--sucial">Mis Redes de Contact</h3>
 
       <section className="icons-footer">
+        <a href="https://www.instagram.com/konchiser/" target={"_blank"}><FontAwesomeIcon className="icon" icon={faInstagram}/></a>
         <a href="https://www.linkedin.com/in/juans-crs-b306bb345/" target={"_blank"}><FontAwesomeIcon className="icon" icon={faLinkedin}/></a>
         <a href="https://github.com/JuansMgb" target={"_blank"}><FontAwesomeIcon className="icon" icon={faGithub}/></a>
         <a href="https://wa.me/573116309784?text=Hola :D, Dejame un mensaje" target={"_blank"}><FontAwesomeIcon className="icon" icon={faWhatsapp}/></a>
