@@ -271,6 +271,13 @@
     margin-top: 60px;
 }
 
+.content--stack{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding-bottom: 60px;
+}
+
 .lbl-menu{
     display: flex;
     gap: 20px;
