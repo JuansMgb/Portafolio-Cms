@@ -1,6 +1,13 @@
 
 /* CSS Custom Properties Definitions */
 
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
 :root {
   --maxWidth-none: "none";
   --maxWidth-xs: 20rem;
