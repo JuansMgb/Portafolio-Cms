@@ -37,17 +37,18 @@ const Index = ({ data, location }) => {
             <img className="img--about" src={foto} alt="photo_2022-05-07_20-59-57-min.jpg" />
           </figure>
 
-          <h2 className="about--title">Juan Sebastian</h2>
-          <p className="about--subtitle">Full Stack Developer</p>
-          <p className="about--texts">¡Apasiando Del Saber!</p>
-          <p className="about--location">Colombia / Medellín </p>
+          <div className="hero--text">
+            <h1 className="hero--title">Hola, Soy Juan Sebastian</h1>
+            <h2 className="hero--subtitle">Desarrollador Full Stack</h2>
+            <p className="hero--description">Desarrollador Web con Experiencia en el Desarrollo de Aplicaciones Web, con un Enfoque en la Creación de Proyectos Personales.</p>   
+          </div>
           
           <nav className="nav--hero">
             <Link to="/" >Home</Link>
             <Link to="blog">Blog</Link>
           </nav>
 
-          <section className="icons-footer">
+          <section className="icons-content">
             <a href="https://www.instagram.com/konchiser/" target={"_blank"}><FontAwesomeIcon className="icon" icon={faInstagram}/></a>
             <a href="https://www.linkedin.com/in/juans-crs-b306bb345/" target={"_blank"}><FontAwesomeIcon className="icon" icon={faLinkedin}/></a>
             <a href="https://github.com/JuansMgb" target={"_blank"}><FontAwesomeIcon className="icon" icon={faGithub}/></a>

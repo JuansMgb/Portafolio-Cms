@@ -20,7 +20,7 @@ const Footer = () => {
 
       <h3 className="info--sucial">Mis Redes de Contact</h3>
 
-      <section className="icons-footer">
+      <section className="icons-content">
         <a href="https://www.instagram.com/konchiser/" target={"_blank"}><FontAwesomeIcon className="icon" icon={faInstagram}/></a>
         <a href="https://www.linkedin.com/in/juans-crs-b306bb345/" target={"_blank"}><FontAwesomeIcon className="icon" icon={faLinkedin}/></a>
         <a href="https://github.com/JuansMgb" target={"_blank"}><FontAwesomeIcon className="icon" icon={faGithub}/></a>

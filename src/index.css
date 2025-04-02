@@ -5,7 +5,6 @@
     box-sizing: border-box;
 }
 
-
 .hero{
     text-align: center;
     padding-top: 30px;
@@ -28,6 +27,14 @@
     border-radius: 80%;
 }
 
+.hero--text{
+    color: #fff;
+    font-size: 1.2rem;
+    margin-bottom: 14px;
+    font-weight: 300;
+    text-align: center;
+}
+
 .about--title{
     margin: 0;
     font-size: 1.9rem;
@@ -40,7 +47,6 @@
     font-size: 1.2rem;
     font-weight: 300;
     color: #b8c0c7;
-    
 }
 
 .icons-content{
@@ -98,28 +104,22 @@
     
 }
 
-
 .section--med{
     height: 400px;
 }
-
 
 @media (min-width: 500px) {
     .section--med {
         display: none;
     }
-
 }
-  
 
 /* main */
-
 
 .main{
     width: 100%;
     text-align: center;
 }
-
 
 .about{
     min-width: 300px;
@@ -127,7 +127,6 @@
     margin: 0 auto;
     text-align: center;
 }
-
 
 .title{
     margin: 0;
@@ -150,7 +149,6 @@
     padding-bottom: 18px;
     color: #b8c0c7;
 }
-
 
 /* projects */
 
@@ -175,7 +173,6 @@
     grid-template-rows: 1fr;
     gap: 28px;
 }
-
 
 @media (min-width: 500px) {
     .projects {
@@ -207,19 +204,16 @@
     transition: .3s;
 }
 
-
 .projects--subtitle,
 .projects--title{
     color: #fff;
 }
-
 
 .projects--title{
     margin-top: .6rem;
     margin-bottom: .5rem;
     font-size: 1.4rem;
 }
-
 
 .projects--stack p{
     display: inline;
@@ -231,11 +225,9 @@
     padding: .5rem;
 }
 
-
 .projects--card:hover .projects--modal{
     bottom: 0;
 }
-
 
 .button{
     display: inline-flex;
@@ -247,14 +239,11 @@
     padding: 1.15rem;
     border-radius: .5rem;
     box-shadow: 0 8px 24px;
-
 }
-
 
 .projects--btn i {
     font-size: 1.2rem;
 }
-
 
 .btn--small{
     padding: .75rem;
@@ -293,7 +282,6 @@
     background-color: #1e4564;
 }
 
-
 .content {
     position: relative;
 }
@@ -323,7 +311,6 @@
     visibility: visible;
     transform: scale(1);
 } 
-
 
 .span--icon{
     display: inline-block;
@@ -387,11 +374,9 @@
     width: 288px;
 }
    
-   
 .form--label{
     position: relative;
 }
-   
    
 .input{
     width: 100%;
@@ -408,12 +393,10 @@
     max-height: 200px;
     max-width: 288px;
 }
-   
-   
+
 .input:focus + .label--input, .input:not(:placeholder-shown) + .label--input {
     transform: translateY(-22px) scale(.7);
 }
-   
    
 .label--input{
     cursor: pointer;
