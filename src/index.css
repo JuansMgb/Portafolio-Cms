@@ -28,11 +28,8 @@
 }
 
 .hero--text{
-    color: #fff;
-    font-size: 1.2rem;
-    margin-bottom: 14px;
-    font-weight: 300;
     text-align: center;
+    padding-bottom: 18px;
 }
 
 .about--title{
