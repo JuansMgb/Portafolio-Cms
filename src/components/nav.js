@@ -1,6 +1,9 @@
 import * as React from "react"
 import "../components/nav.css"
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLinkedin, faGithub, faWhatsapp, faInstagram } from "@fortawesome/free-brands-svg-icons"
+
 
 const Nav = () => {
 
