@@ -40,7 +40,7 @@ const Index = ({ data, location }) => {
           <div className="hero--text">
             <h1 className="hero--title">Hola, Soy Juan Sebastian</h1>
             <h2 className="hero--subtitle">Desarrollador Full Stack</h2>
-            <p className="hero--description">Desarrollador Web con Experiencia en el Desarrollo de Aplicaciones Web, con un Enfoque en la Creación de Proyectos Personales.</p>   
+            <p className="hero--description">Apasionado Del Saber</p>
           </div>
           
           <nav className="nav--hero">
