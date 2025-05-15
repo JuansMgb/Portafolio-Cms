@@ -92,7 +92,7 @@ const Index = ({ data, location }) => {
                       <p>Css</p>
                     </div>
 
-                    <a target={"_blank"} rel="noreferrer" href="juegodemanos-ppo.netlify.app" className="projects--btn button btn--small"><box-icon color="#1e4564" size="30px" type='solid' name='share-alt'></box-icon></a>
+                    <a target={"_blank"} rel="noreferrer" href="https://juegodemanos-ppo.netlify.app" className="projects--btn button btn--small"><box-icon color="#1e4564" size="30px" type='solid' name='share-alt'></box-icon></a>
                   </div>
                 </article>
               </div>
