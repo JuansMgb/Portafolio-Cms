@@ -6,11 +6,11 @@ import { Helmet } from "react-helmet"
 import "../index.css"
 
 // Importamos las imagenes
-import foto from "../images/photo_2022-05-07_20-59-57-min.jpg"
-import project1 from "../images/project1-min.jpg"
-import project2 from "../images/project2-min.jpg"
-import project3 from "../images/project3-min.jpg"
-import project4 from "../images/project4-min.jpg"
+import foto from "../images/PerfiIimgen.jpg"
+import project1 from "../images/pexels-ira-bowman-32885837-8449163.jpg"
+import project2 from "../images/pexels-negativespace-34577.jpg"
+import project3 from "../images/pexels-tobias-dziuba-319638-907607.jpg"
+import project4 from "../images/pexels-anete-lusina-31854238.jpg"
 
 // Importamos los iconos de fontawesome
 import {FontAwesomeIcon } from "@fortawesome/react-fontawesome"
@@ -34,7 +34,7 @@ const Index = ({ data, location }) => {
       <header className="hero">
         <section className="hero--content">
           <figure className="img">
-            <img className="img--about" src={foto} alt="photo_2022-05-07_20-59-57-min.jpg" />
+            <img className="img--about" src={foto} alt="PerfiIimgen.jpg" />
           </figure>
 
           <div className="hero--text">
@@ -49,7 +49,7 @@ const Index = ({ data, location }) => {
           </nav>
 
           <section className="icons-content">
-            <a href="https://www.instagram.com/konchiser/" target={"_blank"}><FontAwesomeIcon className="icon" icon={faInstagram}/></a>
+            <a href="https://www.instagram.com/sebastian_chrc/" target={"_blank"}><FontAwesomeIcon className="icon" icon={faInstagram}/></a>
             <a href="https://www.linkedin.com/in/juans-crs-b306bb345/" target={"_blank"}><FontAwesomeIcon className="icon" icon={faLinkedin}/></a>
             <a href="https://github.com/JuansMgb" target={"_blank"}><FontAwesomeIcon className="icon" icon={faGithub}/></a>
             <a href="https://wa.me/573116309784?text=Hola :D, Dejame un mensaje" target={"_blank"}><FontAwesomeIcon className="icon" icon={faWhatsapp}/></a>
@@ -74,25 +74,23 @@ const Index = ({ data, location }) => {
 
         <section className="section--project">      
           <section className="section--about">
-            <h2 className="title">Proyectos</h2>
-            <p className="sub--texts">listado de Proyectos Personales</p>
-            <p className="sub--texts">Mis Proyectos</p>
+            <h2 className="title">Servicios</h2>
+            <p className="sub--texts">¿En que te puedo ayudar?</p>
+            <p className="sub--texts">Todos los Servicios que Ofrezco</p>
           </section>
             
-          <section className="projects" >
+          <section className="projects">
 
               <div className="projects--content">
                 <article className="projects--card">
                   <img  alt="project1" src={project1} className="img--project" />
                   <div className="projects--modal">
-                    <h3 className="projects--title">Piedra, Papel o Tijeras</h3>
+                    <h3 className="projects--title">Creación de Sitio web</h3>
                     <div className="projects--stack">
-                      <p>JavaScript</p>
-                      <p>Html</p>
-                      <p>Css</p>
+                      <p>Paginas Web Personales</p>   
                     </div>
 
-                    <a target={"_blank"} rel="noreferrer" href="https://juegodemanos-ppo.netlify.app" className="projects--btn button btn--small"><box-icon color="#1e4564" size="30px" type='solid' name='share-alt'></box-icon></a>
+                    <a target={"_blank"} rel="noreferrer" href="https://wa.me/573015736640?text=Hola :D, Servicio de Creación de Sitios Web - Crea tu Sitio Personalizado"  className="projects--btn button btn--small"><box-icon color="#1e4564" size="30px" type='solid' name='share-alt'></box-icon></a>
                   </div>
                 </article>
               </div>
@@ -102,14 +100,11 @@ const Index = ({ data, location }) => {
                   <img  alt="project2" src={project2} className="img--project" />
                             
                   <div className="projects--modal">
-                    <h3 className="projects--title">Films Api</h3>
+                    <h3 className="projects--title">tiendas Online</h3>
                     <div className="projects--stack">
-                      <p>JavaScript</p>
-                      <p>Html</p>
-                      <p>Css</p>
-                      <p>Api Rest</p>
+                      <p>Creacion de Tiendas Online</p>
                     </div>
-                    <a target={"_blank"} rel="noreferrer" href="https://calm-rabanadas-efd3f0.netlify.app" className="projects--btn button btn--small"><box-icon color="#1e4564" size="30px" type='solid' name='share-alt'></box-icon></a>
+                    <a target={"_blank"} rel="noreferrer" href="https://wa.me/573015736640?text=Hola :D, Servicio de Tiendas Online - Crea tu Tienda Online Personalizado" className="projects--btn button btn--small"><box-icon color="#1e4564" size="30px" type='solid' name='share-alt'></box-icon></a>
                   </div>
                 </article>
               </div>
@@ -118,31 +113,24 @@ const Index = ({ data, location }) => {
                 <article className="projects--card">
                   <img  alt="project3" src={project3} className="img--project" />
                   <div className="projects--modal">
-                    <h3 className="projects--title">Pokedex Api</h3>
+                    <h3 className="projects--title">Publicidad</h3>
                     <div className="projects--stack">
-                      <p>JavaScript</p>
-                      <p>Html</p>
-                      <p>Css</p>
-                      <p>Api Rest</p> 
+                      <p>Piblicidad en Medios Sociales</p>
                     </div>
-                    <a target={"_blank"} rel="noreferrer" href="https://github.com/JuansMgb/Poke-Api" className="projects--btn button btn--small"><box-icon color="#1e4564" size="30px" type='solid' name='share-alt'></box-icon></a>
+                    <a target={"_blank"} rel="noreferrer" href="https://wa.me/573015736640?text=Hola :D, Servicio de Publicidad en Medios Sociales - Publicidad"  className="projects--btn button btn--small"><box-icon color="#1e4564" size="30px" type='solid' name='share-alt'></box-icon></a>
                   </div>
                 </article>
               </div>
 
               <div className="projects--content">
                 <article className="projects--card">
-                  <img  alt="project4" src={project4} className="img--project" />
-                              
+                  <img  alt="project4" src={project4} className="img--project" />  
                   <div className="projects--modal">
-                    <h3 className="projects--title">Regristro de Ip</h3>
+                    <h3 className="projects--title">Reparacion de Equipos</h3>
                     <div className="projects--stack">
-                      <p>JavaScript</p>
-                      <p>Html</p>
-                      <p>Css</p>
-                      <p>Api Rest</p>
+                      <p>Reparación de Computadoras</p>
                     </div>
-                      <a target={"_blank"} rel="noreferrer" href="https://ipuseres.netlify.app" className="projects--btn button btn--small"><box-icon type='solid' color="#1e4564" size="30px" name='share-alt'></box-icon></a>
+                      <a target={"_blank"} rel="noreferrer" href="https://wa.me/573015736640?text=Hola :D, Servicio de Reparación de Equipos - computadoras"  className="projects--btn button btn--small"><box-icon type='solid' color="#1e4564" size="30px" name='share-alt'></box-icon></a>
                   </div>
                 </article>
               </div>
